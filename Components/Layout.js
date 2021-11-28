@@ -14,7 +14,7 @@ const Layout = (props) => {
       </Head>
       
       {props.children}
-      <nav />
+      <Nav />
       <Button variant="primary" id="btn">Primary</Button>
       <h1>Hello!</h1>
 
