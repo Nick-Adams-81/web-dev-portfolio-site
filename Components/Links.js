@@ -5,9 +5,9 @@ const Links = () => {
     return (
         <>
             <div id="body">
-                <a href="/home" id="href-1" class="animate__animated animate__fadeIn">Home</a>
-                <a href="" id="href-2" class="animate__animated animate__fadeIn">Projects</a>
-                <a href="" id="href-3" class="animate__animated animate__fadeIn">Connect</a>
+                <a href="/home" id="href-1" className="animate__animated animate__fadeIn">Home</a>
+                <a href="" id="href-2" className="animate__animated animate__fadeIn">Projects</a>
+                <a href="" id="href-3" className="animate__animated animate__fadeIn">Connect</a>
             </div>
             <style>
                 {`
