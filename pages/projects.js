@@ -7,8 +7,6 @@ const projects = () => {
         <>
         <h1>test</h1>
 
-
-
         </>
     )
 }

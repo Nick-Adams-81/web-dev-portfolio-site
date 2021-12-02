@@ -9,6 +9,7 @@ const Links = () => {
                 <a href="" id="href-2" className="animate__animated animate__fadeIn">Projects</a>
                 <a href="" id="href-3" className="animate__animated animate__fadeIn">Connect</a>
             </div>
+
             <style>
                 {`
 
@@ -18,6 +19,10 @@ const Links = () => {
         align-items: center;
         justify-content: center;
         height: 700px;
+      }
+
+      a {
+        color: #11560A;
       }
 
   
