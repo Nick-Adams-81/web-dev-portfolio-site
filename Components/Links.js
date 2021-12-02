@@ -4,25 +4,29 @@ import "animate.css";
 const Links = () => {
     return (
         <>
-            <div id="body">
+            <div id="container">
                 <a href="/home" id="href-1" className="animate__animated animate__fadeIn">Home</a>
-                <a href="" id="href-2" className="animate__animated animate__fadeIn">Projects</a>
+                <a href="/projects" id="href-2" className="animate__animated animate__fadeIn">Projects</a>
                 <a href="" id="href-3" className="animate__animated animate__fadeIn">Connect</a>
             </div>
 
-            <style>
+            <style jsx>
                 {`
 
-      #body {
+      #container {
         background-color: black;
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 700px;
+        height: 800px;
       }
 
       a {
         color: #11560A;
+      }
+
+      a:hover {
+        color: #7B0A08;
       }
 
   

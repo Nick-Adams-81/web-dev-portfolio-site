@@ -5,7 +5,10 @@ const projects = () => {
 
     return (
         <>
-        <h1>test</h1>
+        <Layout>
+              <h1>test</h1>
+        </Layout>
+      
 
         </>
     )
