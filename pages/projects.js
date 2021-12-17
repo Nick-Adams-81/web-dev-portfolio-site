@@ -1,6 +1,7 @@
 import Layout from "../Components/Layout";
 import projects1 from "./projects.json";
 
+
 const projects = () => {
 
 
@@ -8,12 +9,12 @@ const projects = () => {
         <>
             <Layout>
                 <div className="body">
-                    <div className="project-card">
+                    <div>
                         {projects1.map(project => {
                             return (
-                                <div key={project.id}>
-                                    <p>{project.title}</p>
-                                    <p>{project.content}</p>
+                                <div key={project.id} className="project-card">
+                                    <p className="top-p-tag">{project.title}</p>
+                                    <a href={project.link}>View project</a>
                                 </div>
                             )
 
@@ -32,9 +33,16 @@ const projects = () => {
                      height: 750px;
                  }
 
-                 .project-card {
-                     margin: 10px;
-                 }
+                .project-card {
+                    padding: 35px;
+
+                }
+
+                a {
+                    text-decoration: none;
+                }
+
+                
                
             `}
 
