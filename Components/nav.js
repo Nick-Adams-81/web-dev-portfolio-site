@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <>
       <div id="nav">
-        <a href="/"><h1 class="animate__animated animate__fadeIn">NickAdams.com</h1></a>
+        <a href="/"><h1 className="animate__animated animate__fadeIn">NickAdams.com</h1></a>
         <a id="link-1" href="/"></a>
         <a id="link-2" href="/home">Home</a>
         <a id="link-3" href="/projects">Projects</a>

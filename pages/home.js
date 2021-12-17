@@ -9,7 +9,7 @@ const Home = () => {
                 </div>
             </Layout>
 
-            <style>{
+            <style jsx>{
                 `
                  .body {
                      background-color: black;
