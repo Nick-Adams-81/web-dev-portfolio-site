@@ -21,8 +21,8 @@ const projects = () => {
                             return (
                                 <Container>
                                     <Row>
-                                        <Col xs={6} direction="horizontal" gap={3} id="card" style={{ display: 'flex', flexDirection: 'row'}}>
-                                            <Card style={{ width: '18rem' }} id={project.id}>
+                                        <Col xs={12}  style={{ display: 'flex', flexDirection: 'row'}}>
+                                            <Card style={{ width: '18rem', margin: '10px' }} id={project.id} id="card">
                                                 <Card.Img variant="top" src={project.image} />
                                                 <Card.Body>
                                                     <Card.Title>{project.title}</Card.Title>
@@ -57,19 +57,7 @@ const projects = () => {
     
                 a {
                     text-decoration: none;
-                }
-
-                .card {
-                    display: flex;
-                    flex-direction: row;
-                }
-
-                .btn {
-                    margin-left: 25px;
-                }
-
-        
-                
+                }  
                
             `}
 
