@@ -17,13 +17,13 @@ const Nav = () => {
 
         #nav {
           width: 100%;
-          height: 50px;
+          height: 90px;
           background-color: black;
           display: flex;
         }
 
         a { 
-         margin: 15px;
+         margin: 20px;
          color: #373434;
          text-decoration: none;
         }
@@ -32,9 +32,7 @@ const Nav = () => {
           color: #11560A;
         }
 
-        #link-1 {
-          margin-top: 25px;
-        }
+      
       
         `}
       </style>
