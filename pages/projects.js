@@ -10,8 +10,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const projects = () => {
 
-    //  <img src={project.image} class="card-img-top" alt="..."/>
-    // <a href={project.link}>View project</a> 
     return (
         <>
             <Layout>
@@ -26,11 +24,8 @@ const projects = () => {
                                                 <Card.Img variant="top" src={project.image} />
                                                 <Card.Body>
                                                     <Card.Title>{project.title}</Card.Title>
-                                                    <Card.Text>
-                                                        Some quick example text to build on the card title and make up the bulk of
-                                                        the card's content.
-                                                    </Card.Text>
-                                                    <Button variant="outline-secondary" href="" className="btn">Go somewhere</Button>
+                                                    <Card.Text>{project.description}</Card.Text>
+                                                    <Button variant="outline-secondary" href="" className="btn" style={{ marginLeft: '28%'}}>View Here</Button>
                                                 </Card.Body>
                                             </Card>
                                         </Col>
@@ -51,7 +46,7 @@ const projects = () => {
                 `
                  .body {
                      background-color: black;
-                     height: 750px;
+                     height: 100%
                  }
 
     
