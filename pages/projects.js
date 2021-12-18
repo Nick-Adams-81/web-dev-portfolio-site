@@ -19,27 +19,22 @@ const projects = () => {
                             return (
                                 <Container>
                                     <Row>
-                                        <Col xs={12}  style={{ display: 'flex', flexDirection: 'row'}}>
+                                        <Col xs={12}  style={{ display: 'flex', flexDirection: 'column'}}>
                                             <Card style={{ width: '18rem', margin: '10px' }} id={project.id} id="card">
                                                 <Card.Img variant="top" src={project.image} />
                                                 <Card.Body>
                                                     <Card.Title>{project.title}</Card.Title>
                                                     <Card.Text>{project.description}</Card.Text>
-                                                    <Button variant="outline-secondary" href="" className="btn" style={{ marginLeft: '28%'}}>View Here</Button>
+                                                    <Button variant="outline-secondary" href={project.link} className="btn" style={{ marginLeft: '28%'}}>View Here</Button>
                                                 </Card.Body>
                                             </Card>
                                         </Col>
                                     </Row>
                                 </Container>
-
                             )
-
                         })}
                     </div>
-
                 </div>
-
-
             </Layout>
 
             <style jsx>{
