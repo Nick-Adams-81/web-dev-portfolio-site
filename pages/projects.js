@@ -14,13 +14,13 @@ const projects = () => {
         <>
             <Layout>
                 <div className="body">
-                    <div style={{display: 'flex'}} xs={12}  sm={6} md={6} lg={6}>
+                    <div style={{display: 'flex'}}>
                         {projects1.map(project => {
                             return (
-                                <Container>
-                                    <Row >
-                                        <Col  style={{flexDirection: 'column'}}>
-                                            <Card style={{ width: '18rem', margin: '10px' }} id={project.id} id="card">
+                                <Container fluid>
+                                    <Row>
+                                        <Col style={{flexDirection: 'column'}} xs={12} sm={12} md={6}>
+                                            <Card style={{ width: '18rem', margin: '5px' }} id={project.id} id="card">
                                                 <Card.Img variant="top" src={project.image} />
                                                 <Card.Body>
                                                     <Card.Title>{project.title}</Card.Title>
@@ -44,11 +44,7 @@ const projects = () => {
                      height: 100%;
                      width:100%;
                  }
-
-    
-                a {
-                    text-decoration: none;
-                }  
+  
                
             `}
 
