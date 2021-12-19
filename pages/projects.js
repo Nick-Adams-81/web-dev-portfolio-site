@@ -14,12 +14,12 @@ const projects = () => {
         <>
             <Layout>
                 <div className="body">
-                    <div>
+                    <div style={{display: 'flex'}} xs={12}  sm={6} md={6} lg={6}>
                         {projects1.map(project => {
                             return (
                                 <Container>
-                                    <Row>
-                                        <Col xs={12}  style={{ display: 'flex', flexDirection: 'column'}}>
+                                    <Row >
+                                        <Col  style={{flexDirection: 'column'}}>
                                             <Card style={{ width: '18rem', margin: '10px' }} id={project.id} id="card">
                                                 <Card.Img variant="top" src={project.image} />
                                                 <Card.Body>
@@ -41,7 +41,8 @@ const projects = () => {
                 `
                  .body {
                      background-color: black;
-                     height: 100%
+                     height: 100%;
+                     width:100%;
                  }
 
     
