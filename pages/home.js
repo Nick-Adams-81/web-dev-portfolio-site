@@ -11,10 +11,10 @@ const Home = () => {
                 <div className="body">
                     <Container>
                         <Row>
-                            <Col xs={12} sm={12} md={8}>
+                            <Col xs={12} sm={12} md={8} style={{}}>
                                 <p>uncnosrhobvscou;jw.erh kuwcwpkuewhlwhl.ahcjhbucl choseowlrc  p pu pursh lu</p>
                             </Col>
-                            <Col xs={12} sm={12} md={4}>
+                            <Col xs={12} sm={12} md={4} style={{}}>
                                 <p>More test shituhsf ;wqrfhnclcj hlrku bpquyg pq ka[ow  wnf,cjhlbux,y</p>
                             </Col>
 
