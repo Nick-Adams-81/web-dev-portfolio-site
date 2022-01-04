@@ -18,7 +18,7 @@ const projects = () => {
                             return (
                                 <Col sm={12} md={6} lg={4}>
                                     <div id="card-body" key={project.id}>
-                                        <Card style={{ width: '20rem', margin: '6px' }} id="card" class="mx-auto">
+                                        <Card style={{ width: '20rem', margin: '6px' }} id="card" className="mx-auto">
                                             <Card.Img variant="top" src={project.image} />
                                             <Card.Body>
                                                 <Card.Title>{project.title}</Card.Title>
