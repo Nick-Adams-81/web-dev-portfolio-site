@@ -2,16 +2,18 @@ import "animate.css";
 
 
 const Links = () => {
-    return (
-        <>
-            <div id="container">
-                <a href="/home" id="href-1" className="animate__animated animate__fadeIn">Home</a>
-                <a href="/projects" id="href-2" className="animate__animated animate__fadeIn">Projects</a>
-                <a href="" id="href-3" className="animate__animated animate__fadeIn">Connect</a>
-            </div>
+  return (
+    <>
+      <div id="container">
+      
+          <a href="/home" id="href-1" className="animate__animated animate__fadeIn">Home</a>
+          <a href="/projects" id="href-2" className="animate__animated animate__fadeIn">Projects</a>
+          <a href="/connect" id="href-3" className="animate__animated animate__fadeIn">Connect</a>
+    
+      </div>
 
-            <style jsx>
-                {`
+      <style jsx>
+        {`
 
       #container {
         background-color: black;
@@ -19,14 +21,16 @@ const Links = () => {
         align-items: center;
         justify-content: center;
         height: 800px;
+    
       }
 
       a {
-        color: #11560A;
+        color: #323130;
+        text-decoration: none;
       }
 
       a:hover {
-        color: #7B0A08;
+        color: #063C06;
       }
 
   
@@ -35,6 +39,7 @@ const Links = () => {
         font-size: 30px;
         margin: 2%;
         --animate-duration: 2500ms;
+        margin-bottom: 25%;
         
       }
 
@@ -44,20 +49,24 @@ const Links = () => {
         margin: 2%;
         font-size: 30px;
         --animate-duration: 4500ms;
+        margin-bottom: 25%;
       }
 
       #href-3 {
         display: inline-block;
         margin: 2%;
         font-size: 30px;
+        margin-bottom: 25%;
         --animate-duration: 6500ms;
       }
 
+    
+
 
     `}
-            </style>
-        </>
-    )
+      </style>
+    </>
+  )
 }
 
 export default Links;
