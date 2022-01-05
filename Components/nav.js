@@ -5,10 +5,11 @@ const Nav = () => {
   return (
     <>
       <div id="nav">
-        <a href="/home"><h2>NickAdams.com</h2></a>
+        <a href="/"><h2>NickAdams.com</h2></a>
         <a id="link-1" href="/"></a>
         <a id="link-2" href="/home">Home</a>
         <a id="link-3" href="/projects">Projects</a>
+        <a id="link-4" href="/connect">Connect</a>
       </div>
 
       <style jsx>
@@ -23,7 +24,7 @@ const Nav = () => {
 
         a { 
          margin: 20px;
-         color: #373434;
+         color: #4B4E4B;
          text-decoration: none;
         }
 
@@ -36,6 +37,10 @@ const Nav = () => {
         }
 
         #link-3 {
+          margin-top: 29px;
+        }
+
+        #link-4 {
           margin-top: 29px;
         }
 

@@ -25,7 +25,7 @@ const Links = () => {
       }
 
       a {
-        color: #323130;
+        color: #4B4E4B;
         text-decoration: none;
       }
 

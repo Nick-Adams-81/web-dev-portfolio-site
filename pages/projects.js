@@ -14,6 +14,7 @@ const projects = () => {
         <>
             <Layout>
                 <div className="body">
+                    <h1>Projects</h1>
                     <Row style={{ display: 'flex' }}>
                         {projects1.map(project => {
                             return (
@@ -39,13 +40,19 @@ const projects = () => {
                 `
                  .body {
                      background-color: black;
-                     height: 100%;
-                     width: 100%;
+                     height: 100vh%;
+                     width: 1000px%;
                  }
 
                  #card-body {
-                     margin-left: 7px;
-                     margin-right: 5px;
+                     margin-left: 4px;
+                     margin-right: 2px;
+                 }
+
+                 h1 {
+                     text-align: center;
+                     color: #4B4E4B;
+                     margin-bottom: 25px;
                  }
    
             `}
