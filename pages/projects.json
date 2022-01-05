@@ -40,6 +40,13 @@
         "image": "https://store-images.s-microsoft.com/image/apps.10595.14397430983184912.cfdf6f70-0a34-4999-b494-936559d822c3.7355576f-baf9-4be3-8b34-27bdc6ac1bd2",
         "description": "A weather app built using two API's and JQuery, it allows you to check your local weather anywhere!",
         "link": "https://nick-adams-81.github.io/weather-map-api/"
+    },
+    {
+        "id": 7,
+        "title": "Bitcoin Miner",
+        "image": "https://media.gettyimages.com/photos/bitcoin-on-a-led-technological-light-surface-picture-id879153690?s=612x612",
+        "description": "a bitcoin miner written in python, it's designed to be run in your terminal!",
+        "link": "https://github.com/Nick-Adams-81/bitcoin-miner/blob/main/miner.py"
     }
    
 

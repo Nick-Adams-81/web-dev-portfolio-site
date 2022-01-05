@@ -4,8 +4,7 @@ const footer = () => {
     return(
         <>
         <div id="footer">
-            <p>Copyright ©Nick Adams 2022</p>
-            
+            <h4>Copyright ©Nick Adams 2022</h4>
 
         </div>
 
@@ -16,7 +15,8 @@ const footer = () => {
                height: 100%;
            }
 
-           p {
+           h4 {
+               text-align: center;
                color: #4F4F4F;
                padding: 10px;
            }
