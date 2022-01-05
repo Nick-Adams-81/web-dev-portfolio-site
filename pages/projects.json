@@ -37,8 +37,8 @@
     {
         "id": 6,
         "title": "Weather App",
-        "image": "https://is4-ssl.mzstatic.com/image/thumb/Purple125/v4/c8/76/87/c8768792-b7ab-7de4-9c70-1888096b7ae9/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x600wa.png",
-        "description": "A weather app built using two API's and JQuery, it allows you to check your l;ocal weather anywhere!",
+        "image": "https://store-images.s-microsoft.com/image/apps.10595.14397430983184912.cfdf6f70-0a34-4999-b494-936559d822c3.7355576f-baf9-4be3-8b34-27bdc6ac1bd2",
+        "description": "A weather app built using two API's and JQuery, it allows you to check your local weather anywhere!",
         "link": "https://nick-adams-81.github.io/weather-map-api/"
     }
    
