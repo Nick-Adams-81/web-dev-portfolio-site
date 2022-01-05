@@ -18,7 +18,7 @@ const Home = () => {
                                     
                                     <h2 className="animate__animated animate__fadeIn">About me</h2>
                                     <h4 className="animate__animated animate__fadeIn">I am a software developer based out of Dallas, TX, I strive to make software that solves everyday issues
-                                        people encounter, links to my portfolio are available in the portfolio page!
+                                        people encounter, links to my portfolio are available in the projects page!
                                     </h4>
                                 </div>
 

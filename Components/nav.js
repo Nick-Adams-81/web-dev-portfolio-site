@@ -24,7 +24,7 @@ const Nav = () => {
 
         a { 
          margin: 20px;
-         color: #4B4E4B;
+         color: #4F4F4F;
          text-decoration: none;
         }
 
