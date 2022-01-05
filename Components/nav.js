@@ -9,7 +9,6 @@ const Nav = () => {
         <a id="link-1" href="/"></a>
         <a id="link-2" href="/home">Home</a>
         <a id="link-3" href="/projects">Projects</a>
-
       </div>
 
       <style jsx>
@@ -32,8 +31,14 @@ const Nav = () => {
           color: #11560A;
         }
 
-      
-      
+        #link-2 {
+          margin-top: 29px;
+        }
+
+        #link-3 {
+          margin-top: 29px;
+        }
+
         `}
       </style>
     </>
