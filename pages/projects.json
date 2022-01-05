@@ -45,7 +45,7 @@
         "id": 7,
         "title": "Bitcoin Miner",
         "image": "https://media.gettyimages.com/photos/bitcoin-on-a-led-technological-light-surface-picture-id879153690?s=612x612",
-        "description": "a bitcoin miner written in python, it's designed to be run in your terminal!",
+        "description": "a bitcoin miner written in python, it's designed to be run in your terminal and mines blockchain!",
         "link": "https://github.com/Nick-Adams-81/bitcoin-miner/blob/main/miner.py"
     }
    
