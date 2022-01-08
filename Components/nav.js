@@ -24,6 +24,7 @@ const Nav = () => {
           position: fixed;
           top: 0;
           z-index: 2;
+          border-radius: 2%;
         }
 
         a { 

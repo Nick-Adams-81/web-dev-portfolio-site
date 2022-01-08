@@ -16,6 +16,7 @@ const footer = () => {
                border: .5px solid grey;
                position: bottom;
                z-index: 1;
+               border-radius: 2%;
            }
 
            h4 {

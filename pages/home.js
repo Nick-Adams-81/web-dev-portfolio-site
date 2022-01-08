@@ -109,8 +109,9 @@ const Home = () => {
                      margin-left: auto;
                      margin-right: auto;
                      margin-bottom: 20px;
+                      --animate-duration: 3500ms;
                      border-radius: 3%
-                     --animate-duration: 6500ms;
+                    
                  }
             `}
 
