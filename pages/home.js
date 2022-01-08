@@ -13,13 +13,13 @@ const Home = () => {
                     <h1>HOME</h1>
                     <Container>
                         <Row>
-                             <Col sm={12} md={12} lg={12}>
-                            <div className="mx-auto" id="image-container">
-                                 <img src="../images/nick.jpg" height={350} width={350} className="animate__animated animate__fadeIn" id="image" />
-                            </div>
-                        </Col>
+                            <Col sm={12} md={12} lg={12}>
+                                <div className="mx-auto" id="image-container">
+                                    <img src="../images/nick.jpg" height={350} width={300} className="animate__animated animate__fadeIn center" id="image" />
+                                </div>
+                            </Col>
                         </Row>
-                       
+
 
                         <Row>
                             <Col xs={12} sm={12} md={8} style={{}}>
@@ -93,9 +93,11 @@ const Home = () => {
                  }
 
                  #image {
-                     margin-left: 30%;
+                     display: block;
+                     margin-left: auto;
+                     margin-right: auto;
                      margin-bottom: 20px;
-                     border-radius: 5%
+                     border-radius: 3%
                  }
             `}
 
