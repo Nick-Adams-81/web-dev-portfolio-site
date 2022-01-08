@@ -13,9 +13,18 @@ const Home = () => {
                     <h1>HOME</h1>
                     <Container>
                         <Row>
+                             <Col sm={12} md={12} lg={12}>
+                            <div className="mx-auto" id="image-container">
+                                 <img src="../images/nick.jpg" height={350} width={350} className="animate__animated animate__fadeIn" id="image" />
+                            </div>
+                        </Col>
+                        </Row>
+                       
+
+                        <Row>
                             <Col xs={12} sm={12} md={8} style={{}}>
                                 <div>
-                                    
+
                                     <h2 className="animate__animated animate__fadeIn">About me</h2>
                                     <h4 className="animate__animated animate__fadeIn">I am a software developer based out of Dallas, TX, I strive to make software that solves everyday issues
                                         people encounter, links to my portfolio are available in the projects page!
@@ -56,7 +65,7 @@ const Home = () => {
                 `
                  .body {
                      background-color: black;
-                     height: 750px;
+                     height: 100%;
                  }
 
                  h1 {
@@ -81,6 +90,12 @@ const Home = () => {
                  li {
                      color: #4B4E4B;
                      margin-left: 50px;
+                 }
+
+                 #image {
+                     margin-left: 30%;
+                     margin-bottom: 20px;
+                     border-radius: 5%
                  }
             `}
 

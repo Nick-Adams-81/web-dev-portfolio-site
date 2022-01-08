@@ -21,7 +21,7 @@ const projects = () => {
                                 <Col sm={12} md={6} lg={4}>
                                     <div id="card-body" key={project.id} className="animate__animated animate__fadeInRight">
                                         <Card style={{ width: '20rem', margin: '6px', backgroundColor: '#302D2D'}} id="card" className="mx-auto">
-                                            <Card.Img variant="top" src={project.image} height={200} width={70} style={{padding: '2.5px'}}/>
+                                            <Card.Img variant="top" src={project.image} height={200} width={70} style={{padding: '5px'}}/>
                                             <Card.Body>
                                                 <Card.Title style={{color: '#828282'}}>{project.title}</Card.Title>
                                                 <Card.Text style={{color: '#C8C8C8'}}>{project.description}</Card.Text>
