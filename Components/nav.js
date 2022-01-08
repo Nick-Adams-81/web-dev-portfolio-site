@@ -20,6 +20,10 @@ const Nav = () => {
           height: 90px;
           background-color: black;
           display: flex;
+          border: 1px solid grey;
+          position: fixed;
+          top: 0;
+          z-index: 2;
         }
 
         a { 

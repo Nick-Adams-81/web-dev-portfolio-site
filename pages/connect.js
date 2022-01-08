@@ -16,7 +16,10 @@ const Connect = () => {
             #body {
                 background-color: black;
                 height: 800px;
+                margin-top: 90px;
             }
+
+        
         
             `
             }
