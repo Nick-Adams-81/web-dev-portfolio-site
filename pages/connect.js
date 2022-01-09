@@ -1,4 +1,5 @@
 import Layout from "../Components/Layout";
+import Form from '../Components/form';
 
 
 const Connect = () => {
@@ -7,7 +8,8 @@ const Connect = () => {
         <>
             <Layout>
                 <div id="body">
-                    <h1>Coming Soon!</h1>
+                    <Form />
+                    
                 </div>
 
             </Layout>
@@ -17,6 +19,9 @@ const Connect = () => {
                 background-color: black;
                 height: 800px;
                 margin-top: 90px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
             }
         
             `

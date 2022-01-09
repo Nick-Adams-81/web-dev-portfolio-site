@@ -1,8 +1,9 @@
 
 import Head from "next/head";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Footer from "../Components/footer"
-import Nav from '../Components/nav'
+import Footer from "../Components/footer";
+import Nav from '../Components/nav';
+
 
 
 const Layout = (props) => {

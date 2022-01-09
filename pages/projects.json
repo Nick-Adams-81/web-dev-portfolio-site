@@ -3,14 +3,14 @@
         "id": 1,
         "title": "JS Sceduler",
         "image": "https://images.pexels.com/photos/5386754/pexels-photo-5386754.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-        "description": "JS Scheduler is an app designed for companiess to track their employees hours from their devices with ease!",
+        "description": "JS Scheduler is an app designed for companiess to track their employees hours from their devices with ease, jsut login and check it out!",
         "link" : "https://whispering-fjord-97203.herokuapp.com/"
     },
     {
         "id": 2,
         "title": "CarLister(Not deployed yet)",
         "image": "https://www.aitrends.com/wp-content/uploads/2019/09/9-13SportsCar-2.jpg",
-        "description": "CarLister is an app used to list all your cars for sale! Buy and sell vehicles at the touch of a button",
+        "description": "CarLister is an app used to list all your cars for sale! Create an account, then buy and sell vehicles at the touch of a button with ease",
         "link": "https://github.com/Adams-Leith-White-adlister/quasar-adlister"
     },
     {
@@ -38,7 +38,7 @@
         "id": 6,
         "title": "Weather App",
         "image": "https://store-images.s-microsoft.com/image/apps.10595.14397430983184912.cfdf6f70-0a34-4999-b494-936559d822c3.7355576f-baf9-4be3-8b34-27bdc6ac1bd2",
-        "description": "A weather app built using two API's and JQuery, it allows you to check your local weather anywhere!",
+        "description": "A weather app built using two API's and JQuery, it allows you to check your local weather anywhere, just type in your location!",
         "link": "https://nick-adams-81.github.io/weather-map-api/"
     },
     {
