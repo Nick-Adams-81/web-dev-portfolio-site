@@ -14,7 +14,7 @@ const projects = () => {
         <>
             <Layout>
                 <div className="body">
-                    <h1>Projects</h1>
+                    <h1>Portfolio</h1>
                     <Row style={{ display: 'flex' }}>
                         {projects1.map(project => {
                             return (
