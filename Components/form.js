@@ -11,9 +11,9 @@ const form = () => {
 
     return (
         <>
-            <h1>Connect with me!</h1>
-
             <div id="form">
+                <h1>Connect with me!</h1>
+
                 <Form>
 
                     <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -36,7 +36,7 @@ const form = () => {
                     </FloatingLabel>
 
                     <div className="d-grid gap-2">
-                        <Button variant="outline-secondary" type="submit" id="button" style={{marginTop: 20}}>
+                        <Button variant="outline-secondary" type="submit" id="button" style={{ marginTop: 20 }}>
                             Submit
                         </Button>
                     </div>
@@ -48,13 +48,14 @@ const form = () => {
 
             h1 {
                 text-align: center;
-                margin-top: 20px;
+                margin-top: 60px;
                 margin-bottom: 20px;
 
             }
 
             #form {
                 display: block;
+                margin-top: 90px;
                 margin-left: auto;
                 margin-right: auto;
                 width: 50%;
