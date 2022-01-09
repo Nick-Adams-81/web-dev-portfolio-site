@@ -82,7 +82,7 @@ const Home = () => {
                  .body {
                      background-color: black;
                      height: 100%;
-                     margin-top: 90px;
+                     
                  }
 
                  h1 {

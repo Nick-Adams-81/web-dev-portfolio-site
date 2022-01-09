@@ -9,7 +9,6 @@ const Connect = () => {
             <Layout>
                 <div id="body">
                     <Form />
-                    
                 </div>
 
             </Layout>
@@ -18,7 +17,6 @@ const Connect = () => {
             #body {
                 background-color: black;
                 height: 800px;
-                margin-top: 90px;
                 display: block;
                 margin-left: auto;
                 margin-right: auto;

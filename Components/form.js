@@ -48,14 +48,13 @@ const form = () => {
 
             h1 {
                 text-align: center;
-                margin-top: 60px;
+           
                 margin-bottom: 20px;
 
             }
 
             #form {
                 display: block;
-                margin-top: 90px;
                 margin-left: auto;
                 margin-right: auto;
                 width: 50%;

@@ -42,7 +42,6 @@ const projects = () => {
                      background-color: black;
                      height: 100vh%;
                      width: 1000px%;
-                     margin-top:90px;
                  }
 
                  #card-body {
