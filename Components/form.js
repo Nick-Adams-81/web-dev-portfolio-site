@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
-
+import "animate.css";
 
 
 
@@ -11,7 +11,7 @@ const form = () => {
 
     return (
         <>
-            <div id="form">
+            <div id="form" className="animate__animated animate__fadeInUpBig">
                 <h1>Connect with me!</h1>
 
                 <Form>
@@ -48,16 +48,18 @@ const form = () => {
 
             h1 {
                 text-align: center;
-           
                 margin-bottom: 20px;
 
             }
 
             #form {
+                 --animate-duration: 1500ms;
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
                 width: 50%;
+               
+
             }
 
         

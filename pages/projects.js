@@ -19,7 +19,7 @@ const projects = () => {
                         {projects1.map(project => {
                             return (
                                 <Col sm={12} md={6} lg={4}>
-                                    <div id="card-body" key={project.id} className="animate__animated animate__fadeInRight">
+                                    <div id="card-body" key={project.id} className="animate__animated animate__fadeInRightBig">
                                         <Card style={{ width: '20rem', margin: '6px', backgroundColor: '#302D2D'}} id="card" className="mx-auto">
                                             <Card.Img variant="top" src={project.image} height={200} width={70} style={{padding: '5px'}}/>
                                             <Card.Body>
@@ -47,6 +47,7 @@ const projects = () => {
                  #card-body {
                      margin-left: 4px;
                      margin-right: 2px;
+                     --animate-duration: 2000ms;
                  }
 
                  h1 {
