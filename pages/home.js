@@ -27,16 +27,14 @@ const Home = () => {
 
                                     <h2 className="animate__animated animate__fadeIn">About me</h2>
                                     <h4 className="animate__animated animate__fadeIn">I am a software developer based out of Dallas, TX, I strive to make software that solves everyday issues
-                                        people encounter, links to my portfolio are available in the projects page!
+                                        people encounter, links to my portfolio are available in the portfolio page! Connect with me on the connect page!
                                     </h4>
                                 </div>
 
                             </Col>
-                            <Col xs={12} sm={12} md={4} style={{}}>
+                            <Col xs={12} sm={12} md={4}>
                                 <h2 className="animate__animated animate__fadeIn">Tech</h2>
                                 <ul>
-
-
                                     <li className="animate__animated animate__fadeIn">HTML</li>
                                     <li className="animate__animated animate__fadeIn">CSS</li>
                                     <li className="animate__animated animate__fadeIn">JavaScript</li>
