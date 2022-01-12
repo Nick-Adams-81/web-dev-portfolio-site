@@ -12,10 +12,13 @@ const tech = () => {
 
             <Layout>
                 <div className="body">
-                    <h1> tech page test</h1>
+                    <Row>
+                        <Col sm={12} md={12}>
+                            <p>test stuff here</p>
+                        </Col>
+                    </Row>
                 </div>
             </Layout>
-
 
             <style jsx>{`
             .body {

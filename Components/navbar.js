@@ -8,7 +8,7 @@ const navbar = () => {
     return (
         <>
 
-            <Navbar bg="dark" expand="md" variant="dark" style={{borderRadius: 2}}>
+            <Navbar bg="dark" expand="md" variant="dark" style={{borderRadius: 2, zIndex: 1}}>
                 <Container>
                     <Navbar.Brand href="/">NickAdams</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -22,6 +22,7 @@ const navbar = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
+
 
         </>
     )
