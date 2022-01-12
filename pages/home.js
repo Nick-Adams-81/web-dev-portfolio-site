@@ -21,7 +21,6 @@ const Home = () => {
                             </Col>
                         </Row>
 
-
                         <Row>
                             <Col xs={12} sm={12} md={8} style={{}}>
                                 <div>
@@ -49,7 +48,7 @@ const Home = () => {
                         <br></br>
                         <Row>
                             <Col>
-                            <HomeLinks />
+                                <HomeLinks />
                             </Col>
                         </Row>
                     </Container>
@@ -61,7 +60,7 @@ const Home = () => {
                  .body {
                      background-color: black;
                      height: 100%;
-                     
+                     margin-top: 56px
                  }
 
                  h1 {

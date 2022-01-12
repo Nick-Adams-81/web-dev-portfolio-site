@@ -55,6 +55,7 @@ const form = () => {
             #form {
                  --animate-duration: 1500ms;
                 display: block;
+                margin-top: 56px;
                 margin-left: auto;
                 margin-right: auto;
                 width: 50%;

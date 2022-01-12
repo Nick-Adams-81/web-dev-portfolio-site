@@ -18,6 +18,7 @@ const Connect = () => {
                 background-color: black;
                 height: 800px;
                 display: block;
+              
                 margin-left: auto;
                 margin-right: auto;
             }
