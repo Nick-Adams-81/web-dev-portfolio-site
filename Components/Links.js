@@ -7,6 +7,7 @@ const Links = () => {
       <div id="container">
       
           <a href="/home" id="href-1" className="animate__animated animate__fadeIn">Home</a>
+          <a href="/tech" id="href-4" className="animate__animated animate__fadeIn">Tech</a>
           <a href="/projects" id="href-2" className="animate__animated animate__fadeIn">Projects</a>
           <a href="/connect" id="href-3" className="animate__animated animate__fadeIn">Connect</a>
     
@@ -49,7 +50,7 @@ const Links = () => {
         display: inline-block;
         margin: 2%;
         font-size: 30px;
-        --animate-duration: 4500ms;
+        --animate-duration: 5500ms;
         margin-bottom: 25%;
       }
 
@@ -59,6 +60,14 @@ const Links = () => {
         font-size: 30px;
         margin-bottom: 25%;
         --animate-duration: 6500ms;
+      }
+
+      #href-4 {
+        display: inline-block;
+        margin: 2%;
+        font-size: 30px;
+        margin-bottom: 25%;
+        --animate-duration: 4500ms;
       }
 
     
