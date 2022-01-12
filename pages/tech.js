@@ -7,10 +7,32 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const tech = () => {
-    return(
+    return (
+        <>
 
-        <h1> tech page test</h1>
+            <Layout>
+                <div className="body">
+                    <h1> tech page test</h1>
+                </div>
+            </Layout>
+
+
+            <style jsx>{`
+            .body {
+                background-color: black;
+                height: 800px;
+            }
+            
+            `}
+
+            </style>
+
+
+        </>
+
+
     )
+
 }
 
 export default tech;
