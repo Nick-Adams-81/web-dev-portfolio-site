@@ -1,29 +1,37 @@
-
+import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
+//import keys from '../keys/keys/A'
 import "animate.css";
-import { useState } from 'react';
-
 
 
 const form = () => {
 
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [comments, setComments] = useState('');
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [comments, setComments] = useState("");
 
     const handleSubmit = (e) => {
 
         e.preventDefault();
-        const userInput = {name, email, comments}
+        const userInput = { name, email, comments };
         console.log(userInput);
+
+        fetch("https://hookb.in/3OnlalgRlPc7yakkyzVx", {
+            method: "POST",
+            headers: { "content-type": "application/json" },
+            body: JSON.stringify(userInput)
+
+        }).then(() => console.log("new data added!")
+        ).catch((err) => console.log(err));
 
     }
 
     return (
         <>
+
             <div id="form" className="animate__animated animate__fadeInUpBig">
                 <h1>Connect with me!</h1>
 
@@ -63,7 +71,7 @@ const form = () => {
                     </div>
 
                 </Form>
-            
+
             </div>
 
             <style jsx>{`
@@ -71,31 +79,22 @@ const form = () => {
             h1 {
                 text-align: center;
                 margin-bottom: 20px;
-
             }
 
             #form {
-                 --animate-duration: 1500ms;
+                 --animate-duration: 1200ms;
                 display: block;
                 margin-top: 56px;
                 margin-left: auto;
                 margin-right: auto;
                 width: 50%;
-               
-
             }
 
-        
             `}</style>
-
-
 
         </>
 
-
-
     )
-
 
 }
 
