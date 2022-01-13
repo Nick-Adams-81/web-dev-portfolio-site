@@ -4,26 +4,45 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import "animate.css";
+import { useState } from 'react';
 
 
 
 const form = () => {
+
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [comments, setComments] = useState('');
+
+    const handleSubmit = (e) => {
+
+        e.preventDefault();
+        const userInput = {name, email, comments}
+        console.log(userInput);
+
+    }
 
     return (
         <>
             <div id="form" className="animate__animated animate__fadeInUpBig">
                 <h1>Connect with me!</h1>
 
-                <Form>
+                <Form onSubmit={handleSubmit}>
 
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                         <Form.Label>Name</Form.Label>
-                        <Form.Control type="text" placeholder="Name" />
+                        <Form.Control type="text"
+                            placeholder="Name"
+                            vlaue={name}
+                            onChange={(e) => setName(e.target.value)} />
                     </Form.Group>
 
                     <Form.Group className="mb-3" controlId="formBasicPassword">
                         <Form.Label>Email</Form.Label>
-                        <Form.Control type="email" placeholder="Email" />
+                        <Form.Control type="email"
+                            placeholder="Email"
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)} />
                     </Form.Group>
 
 
@@ -32,6 +51,8 @@ const form = () => {
                             as="textarea"
                             placeholder="Leave a comment here"
                             style={{ height: '250px' }}
+                            value={comments}
+                            onChange={(e) => setComments(e.target.value)}
                         />
                     </FloatingLabel>
 
@@ -42,6 +63,7 @@ const form = () => {
                     </div>
 
                 </Form>
+            
             </div>
 
             <style jsx>{`

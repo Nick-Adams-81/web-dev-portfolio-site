@@ -22,6 +22,7 @@ const Links = () => {
         align-items: center;
         justify-content: center;
         height: 800px;
+        margin-top: 56px;
   
     
       }

@@ -16,7 +16,7 @@ const Home = () => {
                         <Row>
                             <Col sm={12} md={12} lg={12}>
                                 <div className="mx-auto" id="image-container">
-                                    <img src="../images/nick.jpg" height={370} width={300} className="animate__animated animate__fadeIn center" id="image" />
+                                    <img src="../images/nick.jpg" height={350} width={280} className="animate__animated animate__fadeIn center" id="image" />
                                 </div>
                             </Col>
                         </Row>

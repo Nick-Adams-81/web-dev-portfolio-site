@@ -17,12 +17,25 @@ const tech = () => {
                             <p>test stuff here</p>
                         </Col>
                     </Row>
+
+                    <Row>
+                        <Col>
+                        <p>more test</p>
+                        </Col>
+                    </Row>
+
+                    <Row>
+                        <Col>
+                        <p>more test</p>
+                        </Col>
+                    </Row>
                 </div>
             </Layout>
 
             <style jsx>{`
             .body {
                 background-color: black;
+                margin-top: 56px;
                 height: 800px;
             }
             
