@@ -3,6 +3,8 @@ import Container from 'react-bootstrap/Container';
 import HomeLinks from '../Components/HomeLinks';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Image from 'next/image';
+import Pic from '../public/images/nick.jpg';
 import "animate.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -16,7 +18,11 @@ const Home = () => {
                         <Row>
                             <Col sm={12} md={12} lg={12}>
                                 <div className="mx-auto" id="image-container">
-                                    <img src="../images/nick.jpg" height={350} width={280} className="animate__animated animate__fadeIn center" id="image" />
+                                    <Image src={Pic}
+                                        height={350}
+                                        width={280}
+                                        className="animate__animated animate__fadeIn center"
+                                    />
                                 </div>
                             </Col>
                         </Row>
