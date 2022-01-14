@@ -60,7 +60,8 @@ const Home = () => {
                  .body {
                      background-color: black;
                      height: 100%;
-                     margin-top: 56px
+                     margin-top: 56px;
+                     margin-bottom: 50px;
                  }
 
                  h1 {

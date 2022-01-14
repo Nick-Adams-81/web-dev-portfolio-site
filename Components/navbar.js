@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 
-const navbar = () => {
+const Navbars = () => {
 
     return (
         <>
@@ -28,4 +28,4 @@ const navbar = () => {
 }
 
 
-export default navbar;
+export default Navbars;

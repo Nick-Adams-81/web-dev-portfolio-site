@@ -3,16 +3,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
-//import keys from '../keys/keys/A'
 import "animate.css";
 
-
-const form = () => {
+const Forms = () => {
 
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [comments, setComments] = useState("");
 
+   
     const handleSubmit = (e) => {
 
         e.preventDefault();
@@ -24,7 +23,7 @@ const form = () => {
             headers: { "content-type": "application/json" },
             body: JSON.stringify(userInput)
 
-        }).then(() => console.log("new data added!")
+        }).then(() => alert("new data added!")
         ).catch((err) => console.log(err));
 
     }
@@ -52,7 +51,6 @@ const form = () => {
                             value={email}
                             onChange={(e) => setEmail(e.target.value)} />
                     </Form.Group>
-
 
                     <FloatingLabel controlId="floatingTextarea2" label="Comments">
                         <Form.Control
@@ -99,4 +97,4 @@ const form = () => {
 }
 
 
-export default form;
+export default Forms;

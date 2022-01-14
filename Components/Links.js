@@ -1,4 +1,5 @@
 import "animate.css";
+import Link from 'next/link';
 
 
 const Links = () => {
@@ -6,10 +7,10 @@ const Links = () => {
     <>
       <div id="container">
       
-          <a href="/home" id="href-1" className="animate__animated animate__fadeIn">Home</a>
-          <a href="/tech" id="href-4" className="animate__animated animate__fadeIn">Tech</a>
-          <a href="/projects" id="href-2" className="animate__animated animate__fadeIn">Projects</a>
-          <a href="/connect" id="href-3" className="animate__animated animate__fadeIn">Connect</a>
+          <Link href="/home"><a id="href-1" className="animate__animated animate__fadeIn">Home</a></Link> 
+          <Link href="/tech"><a id="href-4" className="animate__animated animate__fadeIn">Tech</a></Link>
+          <Link href="/projects"><a id="href-2" className="animate__animated animate__fadeIn">Projects</a></Link>
+          <Link href="/connect"><a id="href-3" className="animate__animated animate__fadeIn">Connect</a></Link> 
     
       </div>
 

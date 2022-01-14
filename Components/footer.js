@@ -1,9 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const footer = () => {
+const Footer = () => {
     return(
         <>
-        <div id="footer">
+        <div id="footer" className="fixed-bottom" style={{height: 50}}>
             <h4>© Nick Adams 2022</h4>
 
         </div>
@@ -33,4 +33,4 @@ const footer = () => {
     )
 }
 
-export default footer;
+export default Footer;
