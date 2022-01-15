@@ -17,20 +17,20 @@ const Home = () => {
                     <Container>
                         <Row>
                             <Col sm={12} md={12} lg={12}>
-                                <div className="mx-auto" id="image-container">
+                                <div className="mx-auto" id="image-container" style={{display: "flex", justifyContent: "center"}}>
                                     <Image src={Pic}
                                         height={350}
                                         width={280}
                                         className="animate__animated animate__fadeIn center"
-                                    />
+                                    ></Image>
                                 </div>
                             </Col>
                         </Row>
 
                         <Row>
-                            <Col xs={12} sm={12} md={8} style={{}}>
-                                <div>
+                            <Col xs={12} sm={12} md={8}>
 
+                                <div>
                                     <h2 className="animate__animated animate__fadeIn">About me</h2>
                                     <h4 className="animate__animated animate__fadeIn">I am a software developer based out of Dallas, TX, I strive to make software that solves everyday issues
                                         people encounter, links to my portfolio are available in the portfolio page! Connect with me on the connect page!
@@ -94,13 +94,11 @@ const Home = () => {
                      margin-left: 50px;
                  }
 
-                 #image {
-                     display: block;
-                     margin-left: auto;
-                     margin-right: auto;
+                 #image-container {
                      margin-bottom: 20px;
+                     border-radius: 3%;
                       --animate-duration: 3500ms;
-                     border-radius: 3%
+                     
                     
                  }
 
