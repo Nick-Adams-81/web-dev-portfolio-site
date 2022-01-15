@@ -1,10 +1,11 @@
 import Layout from "../Components/Layout";
 import Container from 'react-bootstrap/Container';
-import HomeLinks from '../Components/HomeLinks';
+import HomeLinks from '../Components/HomeComponents/HomeLinks';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Image from 'next/image';
-import Pic from '../public/images/nick.jpg';
+import Tech from '../Components/HomeComponents/Tech';
+import HomeInfo from "../Components/HomeComponents/HomeInfo";
+import HomeImage from "../Components/HomeComponents/HomeImage";
 import "animate.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -17,44 +18,31 @@ const Home = () => {
                     <Container>
                         <Row>
                             <Col sm={12} md={12} lg={12}>
-                                <div className="mx-auto" id="image-container" style={{display: "flex", justifyContent: "center"}}>
-                                    <Image src={Pic}
-                                        height={350}
-                                        width={280}
-                                        className="animate__animated animate__fadeIn center"
-                                    ></Image>
-                                </div>
+
+                                <HomeImage />
+
                             </Col>
                         </Row>
 
                         <Row>
                             <Col xs={12} sm={12} md={8}>
 
-                                <div>
-                                    <h2 className="animate__animated animate__fadeIn">About me</h2>
-                                    <h4 className="animate__animated animate__fadeIn">I am a software developer based out of Dallas, TX, I strive to make software that solves everyday issues
-                                        people encounter, links to my portfolio are available in the portfolio page! Connect with me on the connect page!
-                                    </h4>
-                                </div>
+                                <HomeInfo />
 
                             </Col>
                             <Col xs={12} sm={12} md={4}>
-                                <h2 className="animate__animated animate__fadeIn">Tech</h2>
-                                <ul>
-                                    <li className="animate__animated animate__fadeIn">HTML</li>
-                                    <li className="animate__animated animate__fadeIn">CSS</li>
-                                    <li className="animate__animated animate__fadeIn">JavaScript</li>
-                                    <li className="animate__animated animate__fadeIn">Python</li>
-                                    <li className="animate__animated animate__fadeIn">Java</li>
-                                    <li className="animate__animated animate__fadeIn">React</li>
-                                </ul>
+
+                                <Tech />
+
                             </Col>
 
                         </Row>
-                        <br></br>
+                     
                         <Row>
                             <Col>
+
                                 <HomeLinks />
+
                             </Col>
                         </Row>
                     </Container>
@@ -76,33 +64,6 @@ const Home = () => {
                      margin-bottom: 25px;
                  }
 
-                 h2 {
-                     color: #4B4E4B;
-                    text-align: center;
-                 }
-
-                 h3 {
-                     color: #4B4E4B;
-                 }
-
-                 h4 {
-                     color: #4B4E4B;
-                 }
-
-                 li {
-                     color: #4B4E4B;
-                     margin-left: 50px;
-                 }
-
-                 #image-container {
-                     margin-bottom: 20px;
-                     border-radius: 3%;
-                      --animate-duration: 3500ms;
-                     
-                    
-                 }
-
-                
             `}
 
             </style>
