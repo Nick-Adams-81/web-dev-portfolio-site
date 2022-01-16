@@ -13,20 +13,51 @@ const tech = () => {
             <Layout>
                 <div className="body">
                     <Row>
-                        <Col sm={12} md={12}>
+                        <Col sm={12} md={9}>
                             <p>test stuff here</p>
+                            <p>lajsbckarsgcbkykyrfciy crybafqiwek ytbckydeacoulsyliucrbdoxlebhkuljdfbcyxzmxyzoclsduhcnlvoiulrdshcdjnhcfbke kegrs ,shdblhsdhughsdughhosdduyogohvhlxlrbvxhrfblvgbhdht gvbldhlgc </p>
+                        </Col>
+
+                           <Col sm={12} md={3}>
+                        <p>more testlcxgk j.kv;ighjljxtvlnt jntdxlkbx.dtjbnv,d</p>
+                            <p>uitvngvhvlhvlnrfsvrhslhasf,zcjn,njhrblvgluluhntchv khflhbcrbhlcrblu rbb urblux rblrx bxrcburxburbfrlbgruvb.fjlkbfv,hbfxlv,jbfxbfxk,bd,hv,bvf,bfx</p>
                         </Col>
                     </Row>
 
                     <Row>
-                        <Col>
-                        <p>more test</p>
+                    <Col sm={12} md={9}>
+                            <p>test stuff here</p>
+                            <p>lajsbckarsgcbkykyrfciy crybafqiwek ytbckydeacoulsyliucrbdoxlebhkuljdfbcyxzmxyzoclsduhcnlvoiulrdshcdjnhcfbke kegrs ,shdblhsdhughsdughhosdduyogohvhlxlrbvxhrfblvgbhdht gvbldhlgc </p>
+                        </Col>
+
+                           <Col sm={12} md={3}>
+                        <p>more testlcxgk j.kv;ighjljxtvlnt jntdxlkbx.dtjbnv,d</p>
+                            <p>uitvngvhvlhvlnrfsvrhslhasf,zcjn,njhrblvgluluhntchv khflhbcrbhlcrblu rbb urblux rblrx bxrcburxburbfrlbgruvb.fjlkbfv,hbfxlv,jbfxbfxk,bd,hv,bvf,bfx</p>
                         </Col>
                     </Row>
 
                     <Row>
-                        <Col>
-                        <p>more test</p>
+                    <Col sm={12} md={9}>
+                            <p>test stuff here</p>
+                            <p>lajsbckarsgcbkykyrfciy crybafqiwek ytbckydeacoulsyliucrbdoxlebhkuljdfbcyxzmxyzoclsduhcnlvoiulrdshcdjnhcfbke kegrs ,shdblhsdhughsdughhosdduyogohvhlxlrbvxhrfblvgbhdht gvbldhlgc </p>
+                        </Col>
+
+                           <Col sm={12} md={3}>
+                        <p>more testlcxgk j.kv;ighjljxtvlnt jntdxlkbx.dtjbnv,d</p>
+                            <p>uitvngvhvlhvlnrfsvrhslhasf,zcjn,njhrblvgluluhntchv khflhbcrbhlcrblu rbb urblux rblrx bxrcburxburbfrlbgruvb.fjlkbfv,hbfxlv,jbfxbfxk,bd,hv,bvf,bfx</p>
+                        </Col>
+                    </Row>
+
+
+                    <Row>
+                    <Col sm={12} md={9}>
+                            <p>test stuff here</p>
+                            <p>lajsbckarsgcbkykyrfciy crybafqiwek ytbckydeacoulsyliucrbdoxlebhkuljdfbcyxzmxyzoclsduhcnlvoiulrdshcdjnhcfbke kegrs ,shdblhsdhughsdughhosdduyogohvhlxlrbvxhrfblvgbhdht gvbldhlgc </p>
+                        </Col>
+
+                           <Col sm={12} md={3}>
+                        <p>more testlcxgk j.kv;ighjljxtvlnt jntdxlkbx.dtjbnv,d</p>
+                            <p>uitvngvhvlhvlnrfsvrhslhasf,zcjn,njhrblvgluluhntchv khflhbcrbhlcrblu rbb urblux rblrx bxrcburxburbfrlbgruvb.fjlkbfv,hbfxlv,jbfxbfxk,bd,hv,bvf,bfx</p>
                         </Col>
                     </Row>
                 </div>

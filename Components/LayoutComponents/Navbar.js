@@ -13,7 +13,7 @@ const Navbars = () => {
                     <Navbar.Brand href="/">NickAdams</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="me-auto" id="links" style={{marginLeft: 310}}>
+                        <Nav className="me-auto" id="links" style={{marginLeft: '63%'}}>
                             <Nav.Link href="/home">Home</Nav.Link>
                             <Nav.Link href="/tech">Tech</Nav.Link>
                             <Nav.Link href="/projects" id="link-2">Portfolio</Nav.Link>
