@@ -19,7 +19,7 @@ const projects = () => {
                         {projects1.map(project => {
                             return (
                                 <Col sm={12} md={6} lg={4} key={project.id} >
-                                    <div id="card-body"  className="animate__animated animate__fadeInRightBig">
+                                    <div id="card-body"  className="animate__animated animate__fadeInRightBig" key={project.id}>
                                         <Card style={{ width: '20rem', margin: '6px', backgroundColor: '#302D2D'}} id="card" className="mx-auto">
                                             <Card.Img variant="top" src={project.image} height={200} width={70} style={{padding: '5px'}}/>
                                             <Card.Body>

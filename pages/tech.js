@@ -1,10 +1,11 @@
 import Layout from "../Components/Layout";
 import Link from 'next/link';
 import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
 import Image from 'next/image';
 import JsLogo from '../public/images/logo-javascript.svg';
 import ReactLogo from '../public/images/react-1.svg';
+import PythonLogo from '../public/images/Python-logo-notext.svg';
+import JavaLogo from '../public/images/java.png';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import "animate.css";
@@ -83,7 +84,7 @@ const tech = () => {
 
                         <Col sm={12} md={3}>
                             <div className="animate__animated animate__fadeInLeft" id="java-img">
-                                <Image src={ReactLogo} alt="React-logo" height={150} width={150} />
+                                <Image src={JavaLogo} alt="React-logo" height={150} width={150} />
                             </div>
 
                         </Col>
@@ -91,14 +92,21 @@ const tech = () => {
 
 
                     <Row>
-                        <Col sm={12} md={9}>
-                            <p>test stuff here</p>
-                            <p>lajsbckarsgcbkykyrfciy crybafqiwek ytbckydeacoulsyliucrbdoxlebhkuljdfbcyxzmxyzoclsduhcnlvoiulrdshcdjnhcfbke kegrs ,shdblhsdhughsdughhosdduyogohvhlxlrbvxhrfblvgbhdht gvbldhlgc </p>
+                        <Col sm={12} md={3}>
+                            <div className="animate__animated animate__fadeInRightBig" id="python-img">
+                                <Image src={PythonLogo} alt="React-logo" height={150} width={150} />
+                            </div>
                         </Col>
 
-                        <Col sm={12} md={3}>
-                            <p>more testlcxgk j.kv;ighjljxtvlnt jntdxlkbx.dtjbnv,d</p>
-                            <p>uitvngvhvlhvlnrfsvrhslhasf,zcjn,njhrblvgluluhntchv khflhbcrbhlcrblu rbb urblux rblrx bxrcburxburbfrlbgruvb.fjlkbfv,hbfxlv,jbfxbfxk,bd,hv,bvf,bfx</p>
+                        <Col sm={12} md={9}>
+                            <div className="animate__animated animate__fadeInRightBig" id="python-info">
+                                <h2>Python</h2>
+                            <h4>Python is a server side language, my experience is limited to a couple of small projects, a link to one of them is below!</h4>
+                            <Button variant="outline-secondary">
+                                <Link href="https://github.com/Nick-Adams-81/python-scraper">Python Example</Link>
+                            </Button>
+                            </div>
+                            
                         </Col>
                     </Row>
                 </div>
@@ -108,7 +116,8 @@ const tech = () => {
             .body {
                 background-color: black;
                 margin-top: 56px;
-                height: 800px;
+                height: 950px;
+                width: 100%
             } 
 
             #js-info {
@@ -130,6 +139,7 @@ const tech = () => {
 
             #react-info {
                 --animate-duration: 2200ms;
+                margin: 20px;
             }
             #btn-1 {
                 margin-top: 15px;
@@ -142,6 +152,15 @@ const tech = () => {
 
             #java-img {
                 --animate-duration: 2800ms;
+            }
+
+            #python-info {
+                --animate-duration: 3800ms;
+            }
+
+            #python-img {
+                  margin: 20px;
+                  --animate-duration: 3800ms;
             }
             
             `}
