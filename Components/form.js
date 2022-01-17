@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import UsePost from '../Components/CustomHooks/UsePost';
+import UsePost from '../Components/CustomHooks/usePost';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
