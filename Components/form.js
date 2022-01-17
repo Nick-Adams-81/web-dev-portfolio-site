@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import usePost from '../Components/CustomHooks/usePost';
+import UsePost from '../Components/CustomHooks/UsePost';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
@@ -19,17 +19,8 @@ const Forms = () => {
 
         e.preventDefault();
         const userInput = { name, email, comments };
-        console.log(userInput);
-
-        usePost(url, userInput);
-        // fetch("https://hookb.in/3OnlalgRlPc7yakkyzVx", {
-        //     method: "POST",
-        //     headers: { "content-type" : "application/json" },
-        //     body: JSON.stringify(userInput)
-
-        // }).then(() => alert("new data added!")
-        // ).catch((err) => console.log(err));
-
+        UsePost(url, userInput);
+       
     }
 
     return (

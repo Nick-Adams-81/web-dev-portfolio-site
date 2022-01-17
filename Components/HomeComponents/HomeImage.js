@@ -9,6 +9,7 @@ const HomeImage = () => {
                 <Image src={Pic}
                     height={350}
                     width={280}
+                    alt=""
                     className="animate__animated animate__fadeIn center"
                 />
             </div>
