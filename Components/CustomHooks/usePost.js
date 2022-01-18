@@ -1,6 +1,6 @@
 
 
-const usePost = (url, data) => {
+const UsePost = (url, data) => {
   
         fetch(url, {
             method: "POST",
@@ -12,4 +12,4 @@ const usePost = (url, data) => {
     
 }
 
-export default usePost;
+export default UsePost;

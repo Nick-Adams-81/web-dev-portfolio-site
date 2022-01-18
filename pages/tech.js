@@ -116,8 +116,9 @@ const tech = () => {
             .body {
                 background-color: black;
                 margin-top: 56px;
-                height: 950px;
-                width: 100%
+                margin-bottom: 30px;
+                height: 100%;
+                width: 100%;
             } 
 
             #js-info {
@@ -133,7 +134,6 @@ const tech = () => {
             #react-img {
                 margin: 20px;
                 --animate-duration: 2200ms;
-               
                 
             }
 
