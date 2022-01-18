@@ -162,6 +162,14 @@ const tech = () => {
                   margin: 20px;
                   --animate-duration: 3800ms;
             }
+
+            h2 {
+                color: #4B4E4B;
+            }
+
+            h4 {
+                color: #4B4E4B;
+            }
             
             `}
 
