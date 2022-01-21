@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Pic from '../../public/images/nick.jpg';
+import Pic from '../../public/images/Nick_Adams.jpg';
 
 const HomeImage = () => {
     return (
@@ -7,8 +7,8 @@ const HomeImage = () => {
 
             <div className="mx-auto" id="image-container" style={{ display: "flex", justifyContent: "center" }}>
                 <Image src={Pic}
-                    height={350}
-                    width={280}
+                    height={300}
+                    width={300}
                     alt=""
                     className="animate__animated animate__fadeIn center"
                 />
