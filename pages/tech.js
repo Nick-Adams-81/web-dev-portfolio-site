@@ -25,8 +25,8 @@ const tech = () => {
                             <div className="animate__animated animate__fadeInLeft" id="js-info">
                                 <h2>JavaScript</h2>
                                 <h4>I have extensive knowledge in JavaScript and it's libraries(JQuery), as well as ES-5 and ES-6 standards, the link below is an example of my work with JavaScript</h4>
-                                <Button variant="outline-secondary" >
-                                    <Link href="https://nick-adams-81.github.io/quiz-app/">JS Example</Link>
+                                <Button variant="outline-secondary" id="link" href="https://nick-adams-81.github.io/quiz-app/">
+                                    JS Example
                                 </Button>
                             </div>
                         </Col>
@@ -55,8 +55,8 @@ const tech = () => {
                                 <h4>React, the leading JavaScript framework in the world, my knowledge of using hooks such as useState and useEffect is extensive,
                                     as well as integrating API data using axios, this site is built in react and the link below will take you to this site's repo.
                                     <div id="btn-1">
-                                        <Button variant="outline-secondary">
-                                            <Link href="https://github.com/Nick-Adams-81/web-dev-portfolio-site">React Example</Link>
+                                        <Button variant="outline-secondary" id="link" href="https://github.com/Nick-Adams-81/web-dev-portfolio-site">
+                                           React Example
                                         </Button>
                                     </div>
 
@@ -69,12 +69,12 @@ const tech = () => {
 
                     <Row>
                         <Col sm={12} md={9}>
-                            <div className="animate__animated animate__fadeInLeft" id="java-info">
+                            <div className="animate__animated animate__fadeInLeftBig" id="java-info">
                                 <h2>Java</h2>
                                 <h4>Java, a server side language, is one of the newer technologies i've learned, i've gained much knowledge in my time at Codeup in Java, a link demonstrsating my Java work is found below!</h4>
                                 <div id="btn-1">
-                                    <Button variant="outline-secondary">
-                                        <Link href="https://github.com/Nick-Adams-81/web-dev-portfolio-site">Java Example</Link>
+                                    <Button variant="outline-secondary" id="link" href="https://github.com/Nick-Adams-81/web-dev-portfolio-site">
+                                        Java Example
                                     </Button>
                                 </div>
                             </div>
@@ -83,7 +83,7 @@ const tech = () => {
                         </Col>
 
                         <Col sm={12} md={3}>
-                            <div className="animate__animated animate__fadeInLeft" id="java-img">
+                            <div className="animate__animated animate__fadeInLeftBig" id="java-img">
                                 <Image src={JavaLogo} alt="React-logo" height={150} width={150} />
                             </div>
 
@@ -101,12 +101,12 @@ const tech = () => {
                         <Col sm={12} md={9}>
                             <div className="animate__animated animate__fadeInRightBig" id="python-info">
                                 <h2>Python</h2>
-                            <h4>Python is a server side language, my experience is limited to a couple of small projects, a link to one of them is below!</h4>
-                            <Button variant="outline-secondary">
-                                <Link href="https://github.com/Nick-Adams-81/python-scraper">Python Example</Link>
-                            </Button>
+                                <h4>Python is a server side language, my experience is limited to a couple of small projects, a link to one of them is below!</h4>
+                                <Button variant="outline-secondary" id="link" href="https://github.com/Nick-Adams-81/python-scraper">
+                                    Python Example
+                                </Button>
                             </div>
-                            
+
                         </Col>
                     </Row>
                 </div>
@@ -133,12 +133,12 @@ const tech = () => {
     
             #react-img {
                 margin: 20px;
-                --animate-duration: 2200ms;
+                --animate-duration: 2000ms;
                 
             }
 
             #react-info {
-                --animate-duration: 2200ms;
+                --animate-duration: 2000ms;
                 margin: 20px;
             }
             #btn-1 {
@@ -147,20 +147,20 @@ const tech = () => {
 
             #java-info {
                 margin: 20px;
-                --animate-duration: 2800ms;
+                --animate-duration: 2600ms;
             }
 
             #java-img {
-                --animate-duration: 2800ms;
+                --animate-duration: 2600ms;
             }
 
             #python-info {
-                --animate-duration: 3800ms;
+                --animate-duration: 3000ms;
             }
 
             #python-img {
                   margin: 20px;
-                  --animate-duration: 3800ms;
+                  --animate-duration: 3000ms;
             }
 
             h2 {
@@ -169,6 +169,11 @@ const tech = () => {
 
             h4 {
                 color: #4B4E4B;
+            }
+
+            #link {
+                color: grey;
+                text-decoration: none;
             }
             
             `}
