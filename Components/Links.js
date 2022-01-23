@@ -1,5 +1,6 @@
 import "animate.css";
 import Link from 'next/link';
+import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
@@ -8,27 +9,28 @@ const Links = () => {
   return (
     <>
       <div id="container">
+        <Container fluid="xs" className="mx-auto">
 
-        <Row>
-          <Col xs={12} sm={6} md={3} className="mx-auto">
-            <Link href="/home"><a id="href-1" className="animate__animated animate__fadeIn">Home</a></Link>
-          </Col>
+          <Row>
+            <Col xs={12} sm={6} md={3} className="mx-auto">
+              <Link href="/home"><a id="href-1" className="animate__animated animate__fadeIn">Home</a></Link>
+            </Col>
 
-          <Col xs={12} sm={6} md={3} className="mx-auto">
-            <Link href="/tech"><a id="href-4" className="animate__animated animate__fadeIn">Tech</a></Link>
-          </Col>
+            <Col xs={12} sm={6} md={3} className="mx-auto">
+              <Link href="/tech"><a id="href-4" className="animate__animated animate__fadeIn">Tech</a></Link>
+            </Col>
 
-          <Col xs={12} sm={6} md={3} className="mx-auto">
-            <Link href="/projects"><a id="href-2" className="animate__animated animate__fadeIn">Projects</a></Link>
-          </Col>
+            <Col xs={12} sm={6} md={3} className="mx-auto">
+              <Link href="/projects"><a id="href-2" className="animate__animated animate__fadeIn">Projects</a></Link>
+            </Col>
 
-          <Col xs={12} sm={6} md={3} className="mx-auto">
-            <Link href="/connect"><a id="href-3" className="animate__animated animate__fadeIn">Connect</a></Link>
-          </Col>
+            <Col xs={12} sm={6} md={3} className="mx-auto">
+              <Link href="/connect"><a id="href-3" className="animate__animated animate__fadeIn">Connect</a></Link>
+            </Col>
+          </Row>
+        </Container>
 
-          
 
-        </Row>
 
 
       </div>

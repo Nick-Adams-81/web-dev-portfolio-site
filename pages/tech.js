@@ -1,5 +1,4 @@
 import Layout from "../Components/Layout";
-import Link from 'next/link';
 import Button from 'react-bootstrap/Button';
 import Image from 'next/image';
 import JsLogo from '../public/images/logo-javascript.svg';
@@ -22,7 +21,7 @@ const tech = () => {
                     <Row>
 
                         <Col sm={12} md={9}>
-                            <div className="animate__animated animate__fadeInLeft" id="js-info">
+                            <div className="animate__animated animate__fadeIn" id="js-info">
                                 <h2>JavaScript</h2>
                                 <h4>I have extensive knowledge in JavaScript and it's libraries(JQuery), as well as ES-5 and ES-6 standards, the link below is an example of my work with JavaScript</h4>
                                 <Button variant="outline-secondary" id="link" href="https://nick-adams-81.github.io/quiz-app/">
@@ -32,7 +31,7 @@ const tech = () => {
                         </Col>
 
                         <Col sm={12} md={3}>
-                            <div className="animate__animated animate__fadeInLeft" id="js-img">
+                            <div className="animate__animated animate__fadeIn" id="js-img">
                                 <Image src={JsLogo} alt="js-logo" height={150} width={150} />
                             </div>
 
@@ -44,13 +43,13 @@ const tech = () => {
 
                     <Row>
                         <Col sm={12} md={3}>
-                            <div className="animate__animated animate__fadeInRight" id="react-img">
+                            <div className="animate__animated animate__fadeIn" id="react-img">
                                 <Image src={ReactLogo} alt="React-logo" height={150} width={150} />
                             </div>
                         </Col>
 
                         <Col sm={12} md={9}>
-                            <div className="animate__animated animate__fadeInRight" id="react-info">
+                            <div className="animate__animated animate__fadeIn" id="react-info">
                                 <h2>React</h2>
                                 <h4>React, the leading JavaScript framework in the world, my knowledge of using hooks such as useState and useEffect is extensive,
                                     as well as integrating API data using axios, this site is built in react and the link below will take you to this site's repo.
@@ -69,7 +68,7 @@ const tech = () => {
 
                     <Row>
                         <Col sm={12} md={9}>
-                            <div className="animate__animated animate__fadeInLeftBig" id="java-info">
+                            <div className="animate__animated animate__fadeIn" id="java-info">
                                 <h2>Java</h2>
                                 <h4>Java, a server side language, is one of the newer technologies i've learned, i've gained much knowledge in my time at Codeup in Java, a link demonstrsating my Java work is found below!</h4>
                                 <div id="btn-1">
@@ -83,7 +82,7 @@ const tech = () => {
                         </Col>
 
                         <Col sm={12} md={3}>
-                            <div className="animate__animated animate__fadeInLeftBig" id="java-img">
+                            <div className="animate__animated animate__fadeIn" id="java-img">
                                 <Image src={JavaLogo} alt="React-logo" height={150} width={150} />
                             </div>
 
@@ -93,13 +92,13 @@ const tech = () => {
 
                     <Row>
                         <Col sm={12} md={3}>
-                            <div className="animate__animated animate__fadeInRightBig" id="python-img">
+                            <div className="animate__animated animate__fadeIn" id="python-img">
                                 <Image src={PythonLogo} alt="React-logo" height={150} width={150} />
                             </div>
                         </Col>
 
                         <Col sm={12} md={9}>
-                            <div className="animate__animated animate__fadeInRightBig" id="python-info">
+                            <div className="animate__animated animate__fadeIn" id="python-info">
                                 <h2>Python</h2>
                                 <h4>Python is a server side language, my experience is limited to a couple of small projects, a link to one of them is below!</h4>
                                 <Button variant="outline-secondary" id="link" href="https://github.com/Nick-Adams-81/python-scraper">
