@@ -83,7 +83,7 @@ const tech = () => {
 
                         <Col sm={12} md={3}>
                             <div className="animate__animated animate__fadeIn" id="java-img">
-                                <Image src={JavaLogo} alt="React-logo" height={150} width={150} />
+                                <Image src={JavaLogo} alt="Java-logo" height={150} width={150} />
                             </div>
 
                         </Col>
@@ -93,7 +93,7 @@ const tech = () => {
                     <Row>
                         <Col sm={12} md={3}>
                             <div className="animate__animated animate__fadeIn" id="python-img">
-                                <Image src={PythonLogo} alt="React-logo" height={150} width={150} />
+                                <Image src={PythonLogo} alt="Python-logo" height={150} width={150} />
                             </div>
                         </Col>
 
