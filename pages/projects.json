@@ -44,7 +44,7 @@
     {
         "id": 7,
         "title": "Bitcoin Miner",
-        "image": "https://media.gettyimages.com/photos/bitcoin-on-a-led-technological-light-surface-picture-id879153690?s=612x612",
+        "image": "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGJpdGNvaW58ZW58MHx8MHx8&w=1000&q=80",
         "description": "a bitcoin miner written in python, it's designed to be run in your terminal and mines blockchain!",
         "link": "https://github.com/Nick-Adams-81/bitcoin-miner/blob/main/miner.py"
     }

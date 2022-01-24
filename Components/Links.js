@@ -21,7 +21,7 @@ const Links = () => {
             </Col>
 
             <Col xs={12} sm={6} md={3} className="d-flex justify-content-center">
-              <Link href="/projects"><a id="href-2" className="animate__animated animate__fadeIn">Projects</a></Link>
+              <Link href="/projects"><a id="href-2" className="animate__animated animate__fadeIn">Portfolio</a></Link>
             </Col>
 
             <Col xs={12} sm={6} md={3} className="d-flex justify-content-center">
