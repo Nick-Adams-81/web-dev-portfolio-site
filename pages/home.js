@@ -30,7 +30,7 @@ const Home = () => {
                                 <HomeInfo />
 
                             </Col>
-                            <Col xs={12} sm={12} md={4}>
+                            <Col xs={12} sm={12} md={4} className="d-flex justify-content-center">
 
                                 <Tech />
 
