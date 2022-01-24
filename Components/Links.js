@@ -9,25 +9,26 @@ const Links = () => {
   return (
     <>
       <div id="container">
-        <Container fluid="xs" className="mx-auto">
-
+        <Container fluid="xs" className="d-flex justify-content-center">
           <Row>
-            <Col xs={12} sm={6} md={3} className="mx-auto">
+
+            <Col xs={12} sm={6} md={3} className="d-flex justify-content-center">
               <Link href="/home"><a id="href-1" className="animate__animated animate__fadeIn">Home</a></Link>
             </Col>
 
-            <Col xs={12} sm={6} md={3} className="mx-auto">
+            <Col xs={12} sm={6} md={3} className="d-flex justify-content-center">
               <Link href="/tech"><a id="href-4" className="animate__animated animate__fadeIn">Tech</a></Link>
             </Col>
 
-            <Col xs={12} sm={6} md={3} className="mx-auto">
+            <Col xs={12} sm={6} md={3} className="d-flex justify-content-center">
               <Link href="/projects"><a id="href-2" className="animate__animated animate__fadeIn">Projects</a></Link>
             </Col>
 
-            <Col xs={12} sm={6} md={3} className="mx-auto">
+            <Col xs={12} sm={6} md={3} className="d-flex justify-content-center">
               <Link href="/connect"><a id="href-3" className="animate__animated animate__fadeIn">Connect</a></Link>
             </Col>
           </Row>
+
         </Container>
 
 
@@ -45,7 +46,6 @@ const Links = () => {
         justify-content: center;
         height: 100vh;
         margin-top: 56px;
-  
       }
 
       a {
@@ -53,15 +53,12 @@ const Links = () => {
         text-decoration: none;
         align-items: center;
         justify-content: center;
-
-       
       }
 
       a:hover {
         color: #063C06;
       }
 
-  
       #href-1 {
         display: inline-block;
         font-size: 30px;
@@ -70,7 +67,6 @@ const Links = () => {
         margin-bottom: 25%;
         
       }
-
 
       #href-2 {
         display: inline-block;
@@ -95,9 +91,6 @@ const Links = () => {
         margin-bottom: 25%;
         --animate-duration: 4500ms;
       }
-
-    
-
 
     `}
       </style>
