@@ -70,7 +70,7 @@ const tech = () => {
                         <Col sm={12} md={9}>
                             <div className="animate__animated animate__fadeIn" id="java-info">
                                 <h2>Java</h2>
-                                <h4>Java, a server side language, is one of the newer technologies i've learned, i've gained much knowledge in my time at Codeup in Java, a link demonstrsating my Java work is found below!</h4>
+                                <h4>Java, a server side language, is one of the newer technologies i've learned, i've gained much knowledge in my time at Codeup using Java and Java frameworks such as Spring, a link to my Java work is below!</h4>
                                 <div id="btn-1">
                                     <Button variant="outline-secondary" id="link" href="https://github.com/Nick-Adams-81/Spring-Blog">
                                         Java Example
