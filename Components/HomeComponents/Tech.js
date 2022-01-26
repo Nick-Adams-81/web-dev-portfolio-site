@@ -20,13 +20,13 @@ const Tech = () => {
 
             <style jsx>{`
               h2 {
-                color: #4B4E4B;
+                color: #DEDEDE;
                 margin-left: 20px;
             }
 
 
             li {
-                color: #4B4E4B;
+                color: #DEDEDE;
                 margin-left: 20px;
             }
             `}</style>

@@ -1,9 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import HomeLinks from '../HomeComponents/HomeLinks'
 
 const Footer = () => {
     return(
         <>
-        <div id="footer" className="fixed-bottom" style={{height: 50}}>
+        <div id="footer">
+            <HomeLinks />
             <h4>© Nick Adams 2022</h4>
 
         </div>
@@ -14,14 +16,12 @@ const Footer = () => {
                background-color: black;
                height: 100%;
                border: .5px solid grey;
-               position: bottom;
-               z-index: 1;
                border-radius: 2%;
            }
 
            h4 {
                text-align: center;
-               color: #4F4F4F;
+               color: #DEDEDE;
                padding: 10px;
            }
         `}

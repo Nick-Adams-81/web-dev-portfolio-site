@@ -12,13 +12,13 @@ const HomeInfo = () => {
 
             <style jsx>{`
                h2 {
-                color: #4B4E4B;
+                color: #DEDEDE;
                text-align: center;
             }
 
 
             h4 {
-                color: #4B4E4B;
+                color: #DEDEDE;
             }
             `}</style>
         </>

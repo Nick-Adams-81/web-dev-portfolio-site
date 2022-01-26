@@ -9,7 +9,7 @@ const HomeImage = () => {
                 <Image src={Pic}
                     height={300}
                     width={300}
-                    alt=""
+                    alt="Nick Adams"
                     className="animate__animated animate__fadeIn center"
                 />
             </div>

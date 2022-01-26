@@ -1,6 +1,5 @@
 import "animate.css";
 import Link from 'next/link';
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
@@ -9,7 +8,7 @@ const Links = () => {
   return (
     <>
       <div id="container">
-        <Container fluid="xs" className="d-flex justify-content-center">
+        
           <Row>
 
             <Col xs={12} sm={6} md={3} className="d-flex justify-content-center">
@@ -27,12 +26,8 @@ const Links = () => {
             <Col xs={12} sm={6} md={3} className="d-flex justify-content-center">
               <Link href="/connect"><a id="href-3" className="animate__animated animate__fadeIn">Connect</a></Link>
             </Col>
+
           </Row>
-
-        </Container>
-
-
-
 
       </div>
 

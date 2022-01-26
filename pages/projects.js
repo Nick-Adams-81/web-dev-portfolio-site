@@ -40,10 +40,11 @@ const projects = () => {
                 `
                  .body {
                      background-color: black;
-                     height: 100vh%;
-                     width: 1000px%;
+                     height: 100%;
+                     width: 100%;
+                     padding: 15px;
                      margin-top: 56px;
-                     margin-bottom: 50px;
+                   
                  }
 
                  #card-body {

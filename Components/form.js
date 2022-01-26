@@ -14,7 +14,6 @@ const Forms = () => {
 
     const url = "https://hookb.in/8P0BXLW6RktpLGKKLxy8";
 
-   
     const handleSubmit = (e) => {
 
         e.preventDefault();

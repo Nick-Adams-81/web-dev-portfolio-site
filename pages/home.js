@@ -1,6 +1,5 @@
 import Layout from "../Components/Layout";
 import Container from 'react-bootstrap/Container';
-import HomeLinks from '../Components/HomeComponents/HomeLinks';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Tech from '../Components/HomeComponents/Tech';
@@ -38,13 +37,6 @@ const Home = () => {
 
                         </Row>
                      
-                        <Row>
-                            <Col>
-
-                                <HomeLinks />
-
-                            </Col>
-                        </Row>
                     </Container>
                 </div>
             </Layout>
@@ -55,11 +47,11 @@ const Home = () => {
                      background-color: black;
                      height: 100%;
                      margin-top: 56px;
-                     margin-bottom: 50px;
+                   
                  }
 
                  h1 {
-                     color: #4B4E4B;
+                     color: #DEDEDE;
                      text-align: center;
                      margin-bottom: 25px;
                  }
