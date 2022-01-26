@@ -52,7 +52,7 @@ export default function Index() {
                  }
 
                  h1 {
-                     color: #4B4E4B;
+                     color: #DEDEDE;
                      text-align: center;
                      margin-bottom: 25px;
                  }

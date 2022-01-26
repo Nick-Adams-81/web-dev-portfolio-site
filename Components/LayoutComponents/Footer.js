@@ -6,7 +6,7 @@ const Footer = () => {
         <>
         <div id="footer">
             <HomeLinks />
-            <h4>© Nick Adams 2022</h4>
+            <h4>Nick Adams 2022</h4>
 
         </div>
 
