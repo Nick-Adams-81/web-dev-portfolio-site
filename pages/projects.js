@@ -41,7 +41,7 @@ const projects = () => {
                  .body {
                      background-color: black;
                      height: 100%;
-                     width: 100%;
+                     width: 100vw%;
                      padding: 15px;
                      margin-top: 56px;
                    
