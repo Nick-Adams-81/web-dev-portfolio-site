@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Tech from '../Components/HomeComponents/Tech';
 import HomeInfo from "../Components/HomeComponents/HomeInfo";
 import HomeImage from "../Components/HomeComponents/HomeImage";
+import Carousel from '../Components/HomeComponents/Carousel';
 import "animate.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -19,7 +20,8 @@ export default function Index() {
                         <Row>
                             <Col sm={12} md={12} lg={12}>
 
-                                <HomeImage />
+                                {/* <HomeImage /> */}
+                                <Carousel/>
 
                             </Col>
                         </Row>
