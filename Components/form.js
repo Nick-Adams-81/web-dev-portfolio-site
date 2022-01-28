@@ -57,7 +57,7 @@ const Forms = () => {
                     </FloatingLabel>
 
                     <div className="d-grid gap-2">
-                        <Button variant="outline-secondary" type="submit" id="button" style={{ marginTop: 20 }}>
+                        <Button variant="outline-secondary" type="submit" id="button" style={{ marginTop: 20, color: '#DEDEDE' }}>
                             Submit
                         </Button>
                     </div>
@@ -71,6 +71,7 @@ const Forms = () => {
             h1 {
                 text-align: center;
                 margin-bottom: 20px;
+                color: #DEDEDE;
             }
 
             #form {
