@@ -39,15 +39,17 @@ const HomeCarousel = () => {
                     <div id="img-3"></div>
 
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h3>Java</h3>
+                        <p>I am currently working an a Java spring project, it uses Java, spring, and thymeleaf. The app is a hiking app that shows trails near your location</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={4000}>
                     <div id="img-4"></div>
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h3>Python</h3>
+                        <p>My Python experience is limited but I have built a couple of small projects using this technology. I've built a bitcoin mining algorhythm and scrappers for my
+                            internship with verified athletics
+                        </p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
