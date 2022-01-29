@@ -13,59 +13,38 @@ const HomeCarousel = () => {
 
         <div className="carousel">
             <Carousel>
-                <Carousel.Item interval={2500}>
-                    <Image
-                        className="d-block w-100"
-                        id="img-1"
-                        src={ReactLogo}
-                        alt="First slide"
-                    />
+                <Carousel.Item interval={4000}>
+                    <div id="img-1"></div>
+
                     <Carousel.Caption>
                         <h3>React</h3>
-                        <p>This site is an example of my work with React. It uses a little of everything React has to offer, functional components,
+                        <p>
+                            This site is an example of my work with React. It uses a little of everything React has to offer, functional components,
                             state management, hooks, high order array functions, and json files.
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item interval={2000}>
-                    <Image
-                        className="d-block w-100"
-                        src={JsLogo}
-                        alt="Second slide"
-                    />
+                <Carousel.Item interval={4000}>
+                    <div id="img-2"></div>
                     <Carousel.Caption>
                         <h3>JavaScript</h3>
                         <p>
                             Along with react my Javascript skills are growing daily. I've used evrything from ES-5, JQuery, ES-6, for, while, and do while loops.
                             The button below is a link to an example of my JavaScript work.
                         </p>
-                    
-                        <Button variant="outline-secondary" type="submit" id="button" style={{ marginTop: 20, color: '#DEDEDE' }}>
-                            View JS
-                        </Button>
+
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item interval={2000}>
-                    <Image
-                        className="d-block w-100"
-                        src={JavaLogo}
-                        height="150px"
-                        width="150px"
-                        alt="Third slide"
-                    />
+                <Carousel.Item interval={4000}>
+                    <div id="img-3"></div>
+
                     <Carousel.Caption>
                         <h3>Third slide label</h3>
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item interval={2000}>
-                    <Image
-                        className="d-block w-100"
-                        src={PythonLogo}
-                        height="150px"
-                        width="150px"
-                        alt="Third slide"
-                    />
+                <Carousel.Item interval={4000}>
+                    <div id="img-4"></div>
                     <Carousel.Caption>
                         <h3>Third slide label</h3>
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -80,6 +59,25 @@ const HomeCarousel = () => {
                 margin-top: 50px;
 
             }
+            #img-1 {
+                background-image: url("https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGVjaG5vbG9neXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60");
+                height: 200px;
+            }
+
+            #img-2 {
+                background-image: url("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8dGVjaG5vbG9neXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+                height: 200px;
+            }
+
+            #img-3 {
+                background-image: url("https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8amF2YXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+                height: 200px;
+            }
+            #img-4 {
+                background-image: url("https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHl0aG9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+                height: 200px;
+            }
+          
 
             `}
             </style>
