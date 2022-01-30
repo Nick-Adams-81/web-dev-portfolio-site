@@ -22,7 +22,7 @@ const Footer = () => {
            h4 {
                text-align: center;
                color: #DEDEDE;
-               padding: 10px;
+               padding: 40px;
            }
         `}
 
