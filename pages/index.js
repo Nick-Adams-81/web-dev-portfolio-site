@@ -20,8 +20,8 @@ export default function Index() {
                         <Row>
                             <Col sm={12} md={12} lg={12}>
 
-                                {/* <HomeImage /> */}
-                                <Carousel/>
+                                <HomeImage />
+                                {/* <Carousel/> */}
 
                             </Col>
                         </Row>

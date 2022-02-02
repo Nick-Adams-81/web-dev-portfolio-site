@@ -18,20 +18,15 @@ const HomeCarousel = () => {
 
                     <Carousel.Caption>
                         <h3>React</h3>
-                        <p>
-                            This site is an example of my work with React. It uses a little of everything React has to offer, functional components,
-                            state management, hooks, high order array functions, and json files.
-                        </p>
+                        <p>This site is an example of my work with React. It uses a little of everything React has to offer, functional components, state management, hooks, high order array functions, and json files.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={4000}>
                     <div id="img-2"></div>
+
                     <Carousel.Caption>
                         <h3>JavaScript</h3>
-                        <p>
-                            Along with react my Javascript skills are growing daily. I've used evrything from ES-5, JQuery, ES-6, for, while, and do while loops.
-                            The button below is a link to an example of my JavaScript work.
-                        </p>
+                        <p> Along with react my Javascript skills are growing daily. I've used evrything from ES-5, JQuery, ES-6, for, while, and do while loops. The button below is a link to an example of my JavaScript work.</p>
 
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -45,11 +40,10 @@ const HomeCarousel = () => {
                 </Carousel.Item>
                 <Carousel.Item interval={4000}>
                     <div id="img-4"></div>
+
                     <Carousel.Caption>
                         <h3>Python</h3>
-                        <p>My Python experience is limited but I have built a couple of small projects using this technology. I've built a bitcoin mining algorhythm and scrappers for my
-                            internship with verified
-                        </p>
+                        <p>My Python experience is limited but I have built a couple of small projects using this technology. I've built a bitcoin mininer and scrappers for my internship with verified Athletics.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
@@ -66,7 +60,7 @@ const HomeCarousel = () => {
                 height: 300px;
                 background-repeat: no-repeat;
                 background-size: 100%;
-                color: black;
+                
             }
 
             #img-2 {
