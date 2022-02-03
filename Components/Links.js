@@ -37,8 +37,6 @@ const Links = () => {
       #container {
         background-color: black;
         display: flex;
-        align-items: center;
-        justify-content: center;
         height: 100vh;
         margin-top: 56px;
       }
@@ -60,6 +58,8 @@ const Links = () => {
         margin: 2%;
         --animate-duration: 2500ms;
         margin-bottom: 25%;
+        align-items:center;
+        justify-content: center;
         
       }
 
