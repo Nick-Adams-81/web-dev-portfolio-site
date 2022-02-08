@@ -23,7 +23,7 @@ const projects = () => {
                                         <Card style={{ width: '20rem', margin: '6px', backgroundColor: '#302D2D'}} id="card" className="mx-auto">
                                             <Card.Img variant="top" src={project.image} height={200} width={70} style={{padding: '5px'}}/>
                                             <Card.Body>
-                                                <Card.Title style={{color: '#DEDEDE'}}>{project.title}</Card.Title>
+                                                <Card.Title style={{color: '#DEDEDE', textAlign: 'center'}}>{project.title}</Card.Title>
                                                 <Card.Text style={{color: '#C8C8C8'}}>{project.description}</Card.Text>
                                                 <Button variant="outline-secondary" href={project.link} className="btn" style={{ marginLeft: '28%', color: '#DEDEDE' }}>View Here</Button>
                                             </Card.Body>
