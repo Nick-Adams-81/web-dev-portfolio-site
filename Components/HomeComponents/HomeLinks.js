@@ -101,7 +101,21 @@ const HomeLinks = () => {
                       
                     }
 
-               
+                    #link-1 {
+                        color: green;
+                    }
+
+                    #link-2 {
+                        
+                    }
+
+                    #link-3 {
+                        
+                    }
+
+                    #link-4 {
+                        
+                    }
             
             `}
             </style>
