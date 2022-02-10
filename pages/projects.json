@@ -47,6 +47,13 @@
         "image": "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGJpdGNvaW58ZW58MHx8MHx8&w=1000&q=80",
         "description": "a bitcoin miner written in python, it's designed to be run in your terminal and mines blockchain!",
         "link": "https://github.com/Nick-Adams-81/bitcoin-miner/blob/main/miner.py"
+    },
+    {
+        "id": 8,
+        "title": "Wander",
+        "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aGlraW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        "description": "Wander is aa app built for hikers, it allows you to save trail data and images from your hike!",
+        "link": "https://hikewithwander.com"
     }
    
 
