@@ -8,7 +8,7 @@ const HomeLinks = () => {
         <div id="links" className="mx-auto">
 
             <Row>
-                <Col sm={6} md={3}>
+                <Col xs={6} sm={6} md={3}>
                     <h3 className="animate__animated animate__fadeIn">
                     
                     <Dropdown>
@@ -29,7 +29,7 @@ const HomeLinks = () => {
                     </h3>
                 </Col>
 
-                <Col sm={6} md={3}>
+                <Col xs={6} sm={6} md={3}>
                     <h3 className="animate__animated animate__fadeIn">
                         <Dropdown>
                             <Dropdown.Toggle variant="secondary" style={{backgroundColor: 'black'}}>
@@ -47,7 +47,7 @@ const HomeLinks = () => {
                     </h3>
                 </Col>
 
-                <Col sm={6} md={3}>
+                <Col xs={6} sm={6} md={3}>
                     <h3 className="animate__animated animate__fadeIn">
                         <div id="link-3">
                             <a href=" https://www.linkedin.com/in/nick-p-adams/">
@@ -60,7 +60,7 @@ const HomeLinks = () => {
                     </h3>
                 </Col>
 
-                <Col sm={6} md={3}>
+                <Col xs={6} sm={6} md={3}>
                     <h3 className="animate__animated animate__fadeIn">
                         <div id="link-4">
                             <a href="https://github.com/Nick-Adams-81">
