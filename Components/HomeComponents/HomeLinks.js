@@ -8,7 +8,7 @@ const HomeLinks = () => {
         <div id="links" className="mx-auto">
 
             <Row>
-                <Col xs={6} sm={6} md={3}>
+                <Col xs={6} sm={3} md={3}>
                     <h3 className="animate__animated animate__fadeIn">
 
                         <Dropdown>
@@ -29,7 +29,7 @@ const HomeLinks = () => {
                     </h3>
                 </Col>
 
-                <Col xs={6} sm={6} md={3}>
+                <Col xs={6} sm={3} md={3}>
                     <h3 className="animate__animated animate__fadeIn">
                         <Dropdown>
                             <Dropdown.Toggle variant="secondary" style={{ backgroundColor: 'black' }}>
@@ -47,7 +47,7 @@ const HomeLinks = () => {
                     </h3>
                 </Col>
 
-                <Col xs={6} sm={6} md={3}>
+                <Col xs={6} sm={3} md={3}>
                     <Dropdown>
                         <Dropdown.Toggle variant="secondary" style={{ backgroundColor: 'black' }}>
                             <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" className="bi bi-linkedin" viewBox="0 0 16 16" id="linkedin-logo">
@@ -69,7 +69,7 @@ const HomeLinks = () => {
                     </h3>
                 </Col>
 
-                <Col xs={6} sm={6} md={3}>
+                <Col xs={6} sm={3} md={3}>
                     <Dropdown>
                         <Dropdown.Toggle variant="secondary" style={{ backgroundColor: 'black' }}>
                             <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16" id="github-logo">
