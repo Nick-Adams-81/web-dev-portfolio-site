@@ -3,7 +3,6 @@ import UsePost from '../Components/CustomHooks/usePost';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
-import keys from '../keys';
 import "animate.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -13,7 +12,7 @@ const Forms = () => {
     const [email, setEmail] = useState("");
     const [comments, setComments] = useState("");
 
-    const url = keys;
+    const url = "https://hookb.in/RZLlROeK3GsNb9zzBGVD";
 
     const handleSubmit = (e) => {
 
