@@ -23,7 +23,7 @@
     {
         "id": 4,
         "title": "My Tetris",
-        "image": "https://s3.amazonaws.com/tetris-www/assets/article/2017/09/24/tetris-life-header_feature.jpg",
+        "image": "https://static01.nyt.com/images/2022/02/25/crosswords/25wordplay-essay-art/25wordplay-essay-art-superJumbo.jpg",
         "description": "My Tetris is my first attempt at making a game in JavaScript, it was a dificult challenge and is not 100% complete but take a look and have fun!",
         "link": "https://nick-adams-81.github.io/My-Tetris/"
     },

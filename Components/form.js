@@ -12,7 +12,7 @@ const Forms = () => {
     const [email, setEmail] = useState("");
     const [comments, setComments] = useState("");
 
-    const url = "https://hookb.in/ggnlJZkxWPTGJ1PGNlw9";
+    const url = "https://eo38eumiqtjvnim.m.pipedream.net";
 
     const handleSubmit = (e) => {
 
