@@ -10,7 +10,6 @@ const Connect = () => {
                 <div id="body">
                     <Form />
                 </div>
-
             </Layout>
             <style jsx>{
                 `
@@ -21,13 +20,9 @@ const Connect = () => {
                 margin-left: auto;
                 margin-right: auto;
             }
-        
             `
             }
-
             </style>
-
-
         </>
     )
 
