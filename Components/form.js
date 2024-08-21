@@ -15,21 +15,16 @@ const Forms = () => {
     const url = "https://eohpch928005nm4.m.pipedream.net";
 
     const handleSubmit = (e) => {
-
         e.preventDefault();
         const userInput = { name, email, comments };
         UsePost(url, userInput);
-       
     }
 
     return (
         <>
-
             <div id="form" className="animate__animated animate__fadeInUpBig">
                 <h1>Connect with me!</h1>
-
                 <Form onSubmit={handleSubmit}>
-
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                         <Form.Label>Name</Form.Label>
                         <Form.Control type="text"
@@ -37,7 +32,6 @@ const Forms = () => {
                             vlaue={name}
                             onChange={(e) => setName(e.target.value)} />
                     </Form.Group>
-
                     <Form.Group className="mb-3" controlId="formBasicPassword">
                         <Form.Label>Email</Form.Label>
                         <Form.Control type="email"
@@ -45,7 +39,6 @@ const Forms = () => {
                             value={email}
                             onChange={(e) => setEmail(e.target.value)} />
                     </Form.Group>
-
                     <FloatingLabel controlId="floatingTextarea2" label="Comments">
                         <Form.Control
                             as="textarea"
@@ -55,17 +48,13 @@ const Forms = () => {
                             onChange={(e) => setComments(e.target.value)}
                         />
                     </FloatingLabel>
-
                     <div className="d-grid gap-2">
-                        <Button variant="outline-secondary" type="submit" id="button" style={{ marginTop: 20, color: '#DEDEDE' }}>
+                        <Button variant="outline-secondary" type="submit" data-bs-toggle="modal" id="button" style={{ marginTop: 20, color: '#DEDEDE' }}>
                             Submit
                         </Button>
                     </div>
-
                 </Form>
-
             </div>
-
             <style jsx>{`
 
             h1 {
@@ -80,7 +69,7 @@ const Forms = () => {
                 margin-top: 56px;
                 margin-left: auto;
                 margin-right: auto;
-                width: 50%;
+                width: 40%;
             }
 
             `}</style>

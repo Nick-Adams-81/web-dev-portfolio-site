@@ -14,15 +14,13 @@ const Footer = () => {
            #footer {
                width: 100%;
                background-color: black;
-               height: 100%;
                border: .5px solid grey;
-               border-radius: 2%;
+               border-radius: 1%;
            }
-
            h4 {
                text-align: center;
                color: #DEDEDE;
-               padding: 40px;
+               padding: 20px;
            }
         `}
 
