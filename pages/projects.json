@@ -1,9 +1,16 @@
 [
     {
+        "id": 1,
+        "title": "Wander",
+        "image": "https://www.nps.gov/grte/planyourvisit/images/Hiking-NPS-Photo-J-Tobiason_3.jpg?maxwidth=1300&maxheight=1300&autorotate=false",
+        "description": "App made for avid hikers trying to find a trail. There is a link to the repo below, it will be redeployed soon.",
+        "link": "https://github.com/adams-lacy-orta-foss/wanderapp"
+    },
+    {
         "id": 2,
-        "title": "CarLister(Not deployed yet)",
+        "title": "CarLister",
         "image": "https://www.aitrends.com/wp-content/uploads/2019/09/9-13SportsCar-2.jpg",
-        "description": "CarLister is an app used to list all your cars for sale! Create an account, then buy and sell vehicles at the touch of a button with ease",
+        "description": "CarLister is an app used to list all your cars for sale! Create an account, then buy and sell vehicles at the touch of a button with ease.",
         "link": "https://github.com/Adams-Leith-White-adlister/quasar-adlister"
     },
     {
@@ -19,6 +26,13 @@
         "image": "https://static01.nyt.com/images/2022/02/25/crosswords/25wordplay-essay-art/25wordplay-essay-art-superJumbo.jpg",
         "description": "My Tetris is my first attempt at making a game in JavaScript, it was a dificult challenge and is not 100% complete but take a look and have fun!",
         "link": "https://nick-adams-81.github.io/My-Tetris/"
+    },
+    {
+        "id": 5,
+        "title": "JS Scheduler",
+        "image": "https://media.istockphoto.com/id/1182012394/vector/calendar-schedule-and-clock-icon-time-appointment-reminder-date-concept-flat-organizer.jpg?s=612x612&w=0&k=20&c=Ve9eS4lYpgtGHFrfopr2JT-RDXBHcZjdEyQvE3k6uag=",
+        "description": "A scheduler app for small business that have issues creating and maintaining a schedule. A link to the repo is found below, this will be redeployed soon.",
+        "link": "https://github.com/Nick-Adams-81/project-2"
     },
     {
         "id": 6,
