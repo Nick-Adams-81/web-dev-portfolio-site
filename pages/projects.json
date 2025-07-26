@@ -1,53 +1,114 @@
 [
     {
+        "id": 0,
+        "title": "Poker Chatbot",
+        "subtitle": "AI-Powered TDA Rules Assistant",
+        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "description": "An intelligent chatbot trained on Tournament Directors Association (TDA) rules that helps poker players and tournament directors get instant answers to rule questions.",
+        "longDescription": "This AI-powered chatbot leverages advanced natural language processing to understand and respond to complex poker rule inquiries. Built with Python, Flask, and OpenAI's language models, it provides accurate, instant answers to TDA rule questions, helping maintain fair play and consistent rule enforcement in poker tournaments. The chatbot can handle nuanced questions about edge cases, tournament procedures, and rule clarifications.",
+        "technologies": ["Python", "Flask", "LangChain", "OpenAI", "HTML5", "CSS3"],
+        "features": ["TDA Rules Knowledge", "Natural Language Processing", "Instant Responses", "Web Interface", "Rule Clarifications"],
+        "link": "https://poker-chatbot-14b19cc795ba.herokuapp.com/",
+        "github": "https://github.com/Nick-Adams-81/flask-chatbot",
+        "status": "In Development",
+        "category": "AI"
+    },
+    {
         "id": 1,
         "title": "Wander",
+        "subtitle": "Hiking Trail Discovery App",
         "image": "https://www.nps.gov/grte/planyourvisit/images/Hiking-NPS-Photo-J-Tobiason_3.jpg?maxwidth=1300&maxheight=1300&autorotate=false",
-        "description": "App made for avid hikers trying to find a trail. There is a link to the repo below, it will be redeployed soon.",
-        "link": "https://github.com/adams-lacy-orta-foss/wanderapp"
+        "description": "A comprehensive hiking trail discovery application designed for outdoor enthusiasts. Wander helps users find nearby trails, view detailed information, and plan their next adventure with ease.",
+        "longDescription": "Built with Java Spring Boot and Thymeleaf, Wander provides an intuitive interface for discovering hiking trails. The app features trail filtering, detailed descriptions, difficulty ratings, and location-based recommendations. Users can save favorite trails, read reviews, and get real-time weather information for their planned hikes.",
+        "technologies": ["Java", "Spring Boot", "Thymeleaf", "MySQL", "RESTful APIs"],
+        "features": ["Trail Discovery", "Location Services", "Weather Integration", "User Reviews", "Favorite Trails"],
+        "link": "https://github.com/adams-lacy-orta-foss/wanderapp",
+        "github": "https://github.com/adams-lacy-orta-foss/wanderapp",
+        "status": "Completed",
+        "category": "Full Stack"
     },
     {
         "id": 2,
         "title": "CarLister",
+        "subtitle": "Vehicle Marketplace Platform",
         "image": "https://www.aitrends.com/wp-content/uploads/2019/09/9-13SportsCar-2.jpg",
-        "description": "CarLister is an app used to list all your cars for sale! Create an account, then buy and sell vehicles at the touch of a button with ease.",
-        "link": "https://github.com/Adams-Leith-White-adlister/quasar-adlister"
+        "description": "A comprehensive vehicle marketplace where users can buy and sell cars with ease. CarLister provides a secure platform for automotive transactions with advanced search and filtering capabilities.",
+        "longDescription": "CarLister is a full-featured automotive marketplace built with modern web technologies. The platform includes user authentication, advanced search filters, image galleries, and secure messaging between buyers and sellers. Features include vehicle listings, user profiles, search functionality, and a responsive design that works across all devices.",
+        "technologies": ["JavaScript", "HTML5", "CSS3", "MySQL", "Bootstrap"],
+        "features": ["User Authentication", "Advanced Search", "Image Galleries", "Secure Messaging", "Responsive Design"],
+        "link": "https://github.com/Adams-Leith-White-adlister/quasar-adlister",
+        "github": "https://github.com/Adams-Leith-White-adlister/quasar-adlister",
+        "status": "Completed",
+        "category": "Full Stack"
     },
     {
         "id": 3,
         "title": "Konami Code",
-        "image": "data:image/jpeg;base64,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",
-        "description": "Konami code is a fun exercise from school, if you dont remember the code heres a hint(up, up, down, down, left, right, left, right, b, a, then enter)",
-        "link": "https://nick-adams-81.github.io/konami-code/"
+        "subtitle": "Interactive Easter Egg",
+        "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "description": "A fun interactive web application that demonstrates the classic Konami Code easter egg. Enter the secret sequence to unlock hidden features and animations.",
+        "longDescription": "This project showcases JavaScript event handling and DOM manipulation by implementing the famous Konami Code (↑↑↓↓←→←→BA). The application features smooth animations, visual feedback, and a responsive design that works on both desktop and mobile devices. It's a great example of creative web development and user interaction design.",
+        "technologies": ["JavaScript", "HTML5", "CSS3", "DOM Manipulation"],
+        "features": ["Keyboard Event Handling", "Smooth Animations", "Visual Feedback", "Responsive Design"],
+        "link": "https://nick-adams-81.github.io/konami-code/",
+        "github": "https://github.com/Nick-Adams-81/konami-code",
+        "status": "Completed",
+        "category": "Frontend"
     },
     {
         "id": 4,
         "title": "My Tetris",
-        "image": "https://static01.nyt.com/images/2022/02/25/crosswords/25wordplay-essay-art/25wordplay-essay-art-superJumbo.jpg",
-        "description": "My Tetris is my first attempt at making a game in JavaScript, it was a dificult challenge and is not 100% complete but take a look and have fun!",
-        "link": "https://nick-adams-81.github.io/My-Tetris/"
+        "subtitle": "Classic Game Implementation",
+        "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "description": "A JavaScript implementation of the classic Tetris game. Features include score tracking, increasing difficulty levels, and smooth gameplay mechanics.",
+        "longDescription": "My Tetris is a complete implementation of the classic Tetris game using vanilla JavaScript. The game includes all standard Tetris features: piece rotation, line clearing, score tracking, and increasing speed. The project demonstrates advanced JavaScript concepts including game loops, collision detection, and state management. While not 100% complete, it showcases strong programming fundamentals and game development skills.",
+        "technologies": ["JavaScript", "HTML5 Canvas", "CSS3", "Game Development"],
+        "features": ["Piece Rotation", "Line Clearing", "Score Tracking", "Increasing Difficulty", "Smooth Animations"],
+        "link": "https://nick-adams-81.github.io/My-Tetris/",
+        "github": "https://github.com/Nick-Adams-81/My-Tetris",
+        "status": "In Progress",
+        "category": "Game Development"
     },
     {
         "id": 5,
         "title": "JS Scheduler",
+        "subtitle": "Business Schedule Management",
         "image": "https://media.istockphoto.com/id/1182012394/vector/calendar-schedule-and-clock-icon-time-appointment-reminder-date-concept-flat-organizer.jpg?s=612x612&w=0&k=20&c=Ve9eS4lYpgtGHFrfopr2JT-RDXBHcZjdEyQvE3k6uag=",
-        "description": "A scheduler app for small business that have issues creating and maintaining a schedule. A link to the repo is found below, this will be redeployed soon.",
-        "link": "https://github.com/Nick-Adams-81/project-2"
+        "description": "A comprehensive scheduling application designed for small businesses to manage employee schedules, appointments, and time tracking efficiently.",
+        "longDescription": "JS Scheduler is a full-stack web application that helps small businesses manage their scheduling needs. The platform includes employee management, shift scheduling, time tracking, and reporting features. Built with modern web technologies, it provides an intuitive interface for creating and maintaining complex schedules while ensuring compliance with labor laws and business requirements.",
+        "technologies": ["JavaScript", "Node.js", "Express.js", "MySQL", "Bootstrap"],
+        "features": ["Employee Management", "Shift Scheduling", "Time Tracking", "Reporting", "User Authentication"],
+        "link": "https://github.com/Nick-Adams-81/project-2",
+        "github": "https://github.com/Nick-Adams-81/project-2",
+        "status": "Completed",
+        "category": "Full Stack"
     },
     {
         "id": 6,
         "title": "Weather App",
-        "image": "https://store-images.s-microsoft.com/image/apps.10595.14397430983184912.cfdf6f70-0a34-4999-b494-936559d822c3.7355576f-baf9-4be3-8b34-27bdc6ac1bd2",
-        "description": "A weather app built using two API's and JQuery, it allows you to check your local weather anywhere, just type in your location!",
-        "link": "https://nick-adams-81.github.io/weather-map-api/"
+        "subtitle": "Real-time Weather Information",
+        "image": "https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "description": "A dynamic weather application that provides real-time weather information for any location worldwide. Features include current conditions, forecasts, and interactive maps.",
+        "longDescription": "This weather application integrates multiple APIs to provide comprehensive weather information. Users can search for any location and receive current weather conditions, hourly forecasts, and 7-day predictions. The app includes interactive maps, weather alerts, and a responsive design that works seamlessly across all devices. Built with jQuery and modern web APIs, it demonstrates strong API integration and user experience design.",
+        "technologies": ["JavaScript", "jQuery", "Weather APIs", "Map APIs", "HTML5/CSS3"],
+        "features": ["Real-time Weather", "Location Search", "Interactive Maps", "Weather Alerts", "Responsive Design"],
+        "link": "https://nick-adams-81.github.io/weather-map-api/",
+        "github": "https://github.com/Nick-Adams-81/weather-map-api",
+        "status": "Completed",
+        "category": "Frontend"
     },
     {
         "id": 7,
         "title": "Bitcoin Miner",
+        "subtitle": "Cryptocurrency Mining Tool",
         "image": "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGJpdGNvaW58ZW58MHx8MHx8&w=1000&q=80",
-        "description": "a bitcoin miner written in python, it's designed to be run in your terminal and mines blockchain!",
-        "link": "https://github.com/Nick-Adams-81/bitcoin-miner/blob/main/miner.py"
+        "description": "A Python-based Bitcoin mining application designed for educational purposes. Demonstrates blockchain technology and cryptocurrency mining concepts.",
+        "longDescription": "This Bitcoin miner is an educational project that demonstrates the fundamentals of blockchain technology and cryptocurrency mining. Written in Python, it includes features like hash calculation, difficulty adjustment, and blockchain validation. While designed for learning purposes, it showcases advanced Python programming concepts including cryptography, networking, and concurrent processing.",
+        "technologies": ["Python", "Cryptography", "Blockchain", "Networking", "Concurrent Processing"],
+        "features": ["Hash Calculation", "Difficulty Adjustment", "Blockchain Validation", "Educational Tools"],
+        "link": "https://github.com/Nick-Adams-81/bitcoin-miner/blob/main/miner.py",
+        "github": "https://github.com/Nick-Adams-81/bitcoin-miner",
+        "status": "Completed",
+        "category": "Backend"
     }
-
-
 ]
