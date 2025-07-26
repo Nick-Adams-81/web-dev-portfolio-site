@@ -24,6 +24,10 @@ const HomeInfo = () => {
                                 <p className="category-description">Java Spring Boot, Python, RESTful APIs, database design, and server-side logic</p>
                             </div>
                             <div className="skill-category">
+                                <h4 className="category-title">Generative AI</h4>
+                                <p className="category-description">Python, LangChain, Databricks, OpenAI integration, and AI-powered application development</p>
+                            </div>
+                            <div className="skill-category">
                                 <h4 className="category-title">Tools & Technologies</h4>
                                 <p className="category-description">Git, Docker, AWS, MySQL, MongoDB, and modern development workflows</p>
                             </div>
